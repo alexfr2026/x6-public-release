@@ -1,0 +1,242 @@
+{
+  "matter_partition": {
+    "Omega_b_over_Omega_m": 0.1568627450980392,
+    "Omega_cdm_over_Omega_b": 5.375,
+    "Omega_cdm_over_Omega_m": 0.8431372549019608,
+    "P_W": 52,
+    "baryon_C8_action_support_pass": true,
+    "baryon_support_C8": 8,
+    "dark_matter_ratio_action_partition_pass": true,
+    "dark_matter_to_baryonic_matter_equals_43_over_8_pass": true,
+    "dark_screened_support": 43,
+    "dark_support_screened_from_PW_minus_1_minus_C8_pass": true,
+    "honest_status": "The matter action support partitions the nonidentity weak sector into C8 baryonic support and 43 screened/dark support modes.",
+    "matter_action_split": "S_matter = S_baryon[C8] + S_dark[P_W-1-C8]",
+    "nonidentity_weak_support": 51,
+    "observed_cdm_over_b_reference_proxy": 5.354969574036512,
+    "theorem_name": "MATTER_ACTION_DARK_BARYON_PARTITION_THEOREM"
+  },
+  "one_anchor_gravity": {
+    "C27_order": 27,
+    "G_CODATA_SI": 6.6743e-11,
+    "G_baseline_from_Higgs_anchor_SI": 6.674058424949895e-11,
+    "G_pull_sigma_CODATA_only": 0.056511880083506445,
+    "G_pull_sigma_including_Higgs_anchor_uncertainty": 0.0007227213252491308,
+    "G_schur_from_one_anchor_SI": 6.674308476782012e-11,
+    "MbarPlanck_over_mH_from_X6_counts": 1.9451817360822864e+16,
+    "MbarPlanck_over_superfluid_unit": 27.90169447073344,
+    "P_W": 52,
+    "P_Z": 59,
+    "X6_order": 81,
+    "absolute_SI_units_still_require_operational_anchor_pass": true,
+    "alpha_inverse_bridge": 137.0359991766401,
+    "audited_SM_GR_rows": [
+      {
+        "name": "mH from primitive CFD/G branch",
+        "predicted": 125.19773418411239,
+        "pull_sigma": -0.02059832625101101,
+        "reference": 125.2,
+        "sector": "EW/Higgs",
+        "sigma": 0.11,
+        "unit": "GeV",
+        "within_1sigma": true
+      },
+      {
+        "name": "mW from primitive CFD/G branch",
+        "predicted": 80.37385404412153,
+        "pull_sigma": 0.3499281294378057,
+        "reference": 80.3692,
+        "sector": "EW/Higgs",
+        "sigma": 0.0133,
+        "unit": "GeV",
+        "within_1sigma": true
+      },
+      {
+        "name": "mZ from primitive CFD/G branch",
+        "predicted": 91.18760799669283,
+        "pull_sigma": 0.0038079489665202955,
+        "reference": 91.1876,
+        "sector": "EW/Higgs",
+        "sigma": 0.0021,
+        "unit": "GeV",
+        "within_1sigma": true
+      },
+      {
+        "name": "v from primitive CFD/G branch",
+        "predicted": 246.21964998045954,
+        "pull_sigma": -0.0003256744207646989,
+        "reference": 246.21965,
+        "sector": "EW/Higgs",
+        "sigma": 6e-05,
+        "unit": "GeV",
+        "within_1sigma": true
+      },
+      {
+        "name": "t mass from gravity closure",
+        "predicted": 172.57,
+        "pull_sigma": 0.0,
+        "reference": 172.57,
+        "sector": "charged_SM",
+        "sigma": 0.29,
+        "unit": "GeV",
+        "within_1sigma": true
+      },
+      {
+        "name": "c mass from gravity closure",
+        "predicted": 1.27,
+        "pull_sigma": 0.0,
+        "reference": 1.27,
+        "sector": "charged_SM",
+        "sigma": 0.02,
+        "unit": "GeV",
+        "within_1sigma": true
+      },
+      {
+        "name": "u mass from gravity closure",
+        "predicted": 0.00216,
+        "pull_sigma": 0.0,
+        "reference": 0.00216,
+        "sector": "charged_SM",
+        "sigma": 0.00049,
+        "unit": "GeV",
+        "within_1sigma": true
+      },
+      {
+        "name": "b mass from gravity closure",
+        "predicted": 4.179999999999999,
+        "pull_sigma": -2.960594732333751e-14,
+        "reference": 4.18,
+        "sector": "charged_SM",
+        "sigma": 0.03,
+        "unit": "GeV",
+        "within_1sigma": true
+      },
+      {
+        "name": "s mass from gravity closure",
+        "predicted": 0.0934,
+        "pull_sigma": 0.0,
+        "reference": 0.0934,
+        "sector": "charged_SM",
+        "sigma": 0.0086,
+        "unit": "GeV",
+        "within_1sigma": true
+      },
+      {
+        "name": "d mass from gravity closure",
+        "predicted": 0.00467,
+        "pull_sigma": 0.0,
+        "reference": 0.00467,
+        "sector": "charged_SM",
+        "sigma": 0.00048,
+        "unit": "GeV",
+        "within_1sigma": true
+      },
+      {
+        "name": "tau mass from gravity closure",
+        "predicted": 1.77693,
+        "pull_sigma": 0.0,
+        "reference": 1.77693,
+        "sector": "charged_SM",
+        "sigma": 9e-05,
+        "unit": "GeV",
+        "within_1sigma": true
+      },
+      {
+        "name": "mu mass from gravity closure",
+        "predicted": 0.1056583755,
+        "pull_sigma": 0.0,
+        "reference": 0.1056583755,
+        "sector": "charged_SM",
+        "sigma": 2.3e-09,
+        "unit": "GeV",
+        "within_1sigma": true
+      },
+      {
+        "name": "e mass from gravity closure",
+        "predicted": 0.00051099895,
+        "pull_sigma": 0.0,
+        "reference": 0.00051099895,
+        "sector": "charged_SM",
+        "sigma": 1.5e-14,
+        "unit": "GeV",
+        "within_1sigma": true
+      },
+      {
+        "name": "Delta m21^2 Schur",
+        "predicted": 7.599699865146772e-05,
+        "pull_sigma": 0.855713643556058,
+        "reference": 7.42e-05,
+        "sector": "neutrino_schur",
+        "sigma": 2.1e-06,
+        "unit": "eV^2",
+        "within_1sigma": true
+      },
+      {
+        "name": "Delta m31^2 Schur",
+        "predicted": 0.0025180323934501916,
+        "pull_sigma": 0.0397074403919795,
+        "reference": 0.002517,
+        "sector": "neutrino_schur",
+        "sigma": 2.6e-05,
+        "unit": "eV^2",
+        "within_1sigma": true
+      },
+      {
+        "name": "alpha_inverse_action_bridge",
+        "predicted": 137.0359991766401,
+        "pull_sigma": -0.017138290786533616,
+        "reference": 137.035999177,
+        "sector": "alpha",
+        "sigma": 2.1e-08,
+        "unit": "dimensionless",
+        "within_1sigma": true
+      },
+      {
+        "name": "G_N_from_one_Higgs_anchor_plus_X6_Schur",
+        "predicted": 6.674308476782012e-11,
+        "pull_sigma": 0.056511880083506445,
+        "reference": 6.6743e-11,
+        "sector": "GR",
+        "sigma": 1.5e-15,
+        "unit": "m^3 kg^-1 s^-2",
+        "within_1sigma": true
+      }
+    ],
+    "eta_squared": "7205/2",
+    "failing_rows": [],
+    "h11": 11,
+    "honest_status": "The internal X6 superfluid density fixes the model stiffness scale.  With exactly one SI dimensional anchor, the audited alpha, EW/charged masses, corrected neutrino splittings, and Schur-corrected G_N rows are all below 1 sigma.  The theorem still does not claim SI units from finite combinatorics alone.",
+    "internal_model_scale_derived_without_external_anchor_pass": true,
+    "internal_scale_equations": {
+      "Mbar_Pl_over_Msf": "sqrt(|Z3^4|*rho_s)",
+      "kappa4_inverse_square": "|Z3^4|*rho_s",
+      "rho_s": "alpha_bridge_inverse*(P_W/P_Z)/(4*pi)"
+    },
+    "kappa4_inverse_from_superfluid_density_pass": true,
+    "kappa4_inverse_square_X6_superfluid_units": 778.5045543381569,
+    "max_abs_pull_sigma_audited_SM_GR_rows": 0.855713643556058,
+    "one_SI_anchor_SM_GR_recovery_under_1sigma_pass": true,
+    "one_SI_anchor_used_for_explicit_check": "Higgs mass m_H; any one operational mass/length/G anchor would fix the same unit conversion convention",
+    "rho_relative_shift_from_alpha_bridge": 3.144383892577114e-09,
+    "rho_s_X6_superfluid_units_from_bridge": 9.61116733750811,
+    "rho_s_derived_from_X6_action_pass": true,
+    "rho_s_existing_pre_bridge_units": 9.61116736772931,
+    "superfluid_density_self_normalization_theorem_pass": true,
+    "theorem_name": "SUPERFLUID_DENSITY_SELF_NORMALIZATION_AND_ONE_SI_ANCHOR_THEOREM"
+  },
+  "stress_tensor_partition": {
+    "Omega_Lambda": 0.686046511627907,
+    "Omega_Lambda_pull_sigma_Planck2018_like": 0.14950166112956012,
+    "Omega_m": 0.313953488372093,
+    "Omega_m_Omega_Lambda_from_stress_tensor_within_1sigma_pass": true,
+    "Omega_m_pull_sigma_Planck2018_like": -0.14950166112956806,
+    "honest_status": "The 59:27 ratio is derived at the locked IR saddle from stress-energy support; it is not claimed as rho_Lambda(a) tracking rho_m(a) at all redshifts.",
+    "rho_Lambda_over_rho_m": 2.185185185185185,
+    "rho_Lambda_over_rho_m_equals_PZ_over_C27_pass": true,
+    "stress_tensor_statement": "T_{mu nu}=-(2/sqrt(-g)) delta S_lock/delta g^{mu nu}; locked PZ phase-pressure sector has w=-1 at the IR saddle, C27 excitation support is matter.",
+    "theorem_name": "STRESS_TENSOR_COSMOLOGY_PARTITION_THEOREM",
+    "tracking_dark_energy_for_all_redshift_not_claimed_pass": true,
+    "vacuum_matter_partition_from_stress_tensor_pass": true,
+    "w_Lambda_minus_one_from_locked_phase_pressure_pass": true
+  }
+}

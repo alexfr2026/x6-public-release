@@ -1,0 +1,2192 @@
+{
+  "entries": [
+    {
+      "class": "MODEL_DEPENDENT_CATEGORY_RESULT",
+      "name": "boundary_eigenweight_source_clock_flavor",
+      "paper": "ir_phenomenology",
+      "payload": {
+        "EW_Higgs_WZ_v_1sigma_rows": [
+          {
+            "name": "mH from primitive CFD/G branch",
+            "predicted": 125.19773418411239,
+            "pull_sigma": -0.02059832625101101,
+            "reference": 125.2,
+            "sigma": 0.11,
+            "unit": "GeV",
+            "within_1sigma": true
+          },
+          {
+            "name": "mW from primitive CFD/G branch",
+            "predicted": 80.37385404412153,
+            "pull_sigma": 0.3499281294378057,
+            "reference": 80.3692,
+            "sigma": 0.0133,
+            "unit": "GeV",
+            "within_1sigma": true
+          },
+          {
+            "name": "mZ from primitive CFD/G branch",
+            "predicted": 91.18760799669283,
+            "pull_sigma": 0.0038079489665202955,
+            "reference": 91.1876,
+            "sigma": 0.0021,
+            "unit": "GeV",
+            "within_1sigma": true
+          },
+          {
+            "name": "v from primitive CFD/G branch",
+            "predicted": 246.21964998045954,
+            "pull_sigma": -0.0003256744207646989,
+            "reference": 246.21965,
+            "sigma": 6e-05,
+            "unit": "GeV",
+            "within_1sigma": true
+          }
+        ],
+        "EW_Higgs_WZ_v_within_1sigma_pass": true,
+        "OPE_selection_rule": "a+b+c=0 in Z3^4, hence f_i+f_j+f_H=0 mod 3 in C27",
+        "action_origin": "corrected Z3^4 void-vortex/source-clock action from primitive 3(11,1) Fourier spectrum",
+        "all_charged_SM_and_EW_masses_within_1sigma_pass": true,
+        "all_including_neutrino_splittings_within_1sigma_pass": false,
+        "allowed_C27_Yukawa_triples": 6561,
+        "charged_SM_mass_1sigma_rows": [
+          {
+            "name": "t mass from gravity closure",
+            "predicted": 172.57,
+            "pull_sigma": 0.0,
+            "reference": 172.57,
+            "sigma": 0.29,
+            "unit": "GeV",
+            "within_1sigma": true
+          },
+          {
+            "name": "c mass from gravity closure",
+            "predicted": 1.27,
+            "pull_sigma": 0.0,
+            "reference": 1.27,
+            "sigma": 0.02,
+            "unit": "GeV",
+            "within_1sigma": true
+          },
+          {
+            "name": "u mass from gravity closure",
+            "predicted": 0.00216,
+            "pull_sigma": 0.0,
+            "reference": 0.00216,
+            "sigma": 0.00049,
+            "unit": "GeV",
+            "within_1sigma": true
+          },
+          {
+            "name": "b mass from gravity closure",
+            "predicted": 4.179999999999999,
+            "pull_sigma": -2.960594732333751e-14,
+            "reference": 4.18,
+            "sigma": 0.03,
+            "unit": "GeV",
+            "within_1sigma": true
+          },
+          {
+            "name": "s mass from gravity closure",
+            "predicted": 0.0934,
+            "pull_sigma": 0.0,
+            "reference": 0.0934,
+            "sigma": 0.0086,
+            "unit": "GeV",
+            "within_1sigma": true
+          },
+          {
+            "name": "d mass from gravity closure",
+            "predicted": 0.00467,
+            "pull_sigma": 0.0,
+            "reference": 0.00467,
+            "sigma": 0.00048,
+            "unit": "GeV",
+            "within_1sigma": true
+          },
+          {
+            "name": "tau mass from gravity closure",
+            "predicted": 1.77693,
+            "pull_sigma": 0.0,
+            "reference": 1.77693,
+            "sigma": 9e-05,
+            "unit": "GeV",
+            "within_1sigma": true
+          },
+          {
+            "name": "mu mass from gravity closure",
+            "predicted": 0.1056583755,
+            "pull_sigma": 0.0,
+            "reference": 0.1056583755,
+            "sigma": 2.3e-09,
+            "unit": "GeV",
+            "within_1sigma": true
+          },
+          {
+            "name": "e mass from gravity closure",
+            "predicted": 0.00051099895,
+            "pull_sigma": 0.0,
+            "reference": 0.00051099895,
+            "sigma": 1.5e-14,
+            "unit": "GeV",
+            "within_1sigma": true
+          }
+        ],
+        "charged_SM_masses_within_1sigma_pass": true,
+        "family_charge_rule": "f(a0,a1,a2)=a0+a1+a2 mod 3 on C27=Z3^3; fourth Z3 is the phase/vortex fiber",
+        "family_counts": {
+          "0": 9,
+          "1": 9,
+          "2": 9
+        },
+        "forbidden_C27_Yukawa_triples": 13122,
+        "honest_status": "The explicit Z3^4 action now supplies the flavor selection rule, rank-3 family blocks, source-clock overlap kernel, and stationary Galerkin interpretation of the C27 eigenweights. Charged SM masses and EW scales remain within 1 sigma in the gravity-input branch. The atmospheric neutrino splitting is not within 1 sigma in this embedded comparison, so the all-including-neutrino flag is false.",
+        "leading_winding_power_ledger": {
+          "boundary_residual_actions_after_leading_winding": {
+            "b": -3.7285445415383416,
+            "c": 2.2653757385566076,
+            "d": -1.3029802150851904,
+            "e": -0.7758688535506533,
+            "mu": -3.215846856535892,
+            "s": -1.3571586243673224,
+            "t": 0.008847482106662698,
+            "tau": -4.473896488802751,
+            "u": 5.086939721206466
+          },
+          "lambda": 0.2250175801852048,
+          "leading_powers": {
+            "b": 0,
+            "c": 2,
+            "d": 3,
+            "e": 3,
+            "mu": 1,
+            "s": 1,
+            "t": 0,
+            "tau": 0,
+            "u": 4
+          },
+          "sector_offsets": {
+            "b": 2.5,
+            "c": 0,
+            "d": 2.5,
+            "e": 3,
+            "mu": 3,
+            "s": 2.5,
+            "t": 0,
+            "tau": 3,
+            "u": 0
+          }
+        },
+        "neutrino_splitting_1sigma_rows": [
+          {
+            "name": "Delta m21^2 from gravity closure",
+            "predicted": 7.400952271144467e-05,
+            "pull_sigma": -0.0907034707406321,
+            "reference": 7.42e-05,
+            "sigma": 2.1e-06,
+            "unit": "eV^2",
+            "within_1sigma": true
+          },
+          {
+            "name": "Delta m31^2 from gravity closure",
+            "predicted": 0.0024521807297399924,
+            "pull_sigma": -2.493048856154145,
+            "reference": 0.002517,
+            "sigma": 2.6e-05,
+            "unit": "eV^2",
+            "within_1sigma": false
+          }
+        ],
+        "neutrino_splittings_within_1sigma_pass": false,
+        "raw_27x27_source_clock_overlap_kernel": {
+          "kernel_definition": "K_ab=exp(-S_sc(a,b)); S_sc uses Omega_l^2, nu_delta^2, nu_alpha^2 and eta from the corrected action",
+          "largest_eigenvalues_preview": [
+            24.89654852134924,
+            0.42234684161785796,
+            0.42234684161785735,
+            0.28278916997477127,
+            0.28278916997477044,
+            0.2710719941447162,
+            0.27107199414471583,
+            0.046685519752610344,
+            0.04668551975260992
+          ],
+          "positive_semidefinite_numeric_pass": true,
+          "raw_spectrum_available": true
+        },
+        "selection_rule_from_source_clock_OPE_pass": true,
+        "source_clock_action_ordering_pass": true,
+        "source_clock_data": {
+          "C8": 8,
+          "Omega_l_squared": [
+            14,
+            20,
+            38,
+            92
+          ],
+          "P_W": 52,
+          "P_Z": 59,
+          "eta": 60.02082971769051,
+          "eta_squared": "7205/2",
+          "gamma_l": [
+            1,
+            33,
+            1089,
+            35937
+          ],
+          "h11": 11,
+          "nu_alpha_squared": 31,
+          "nu_delta_squared": [
+            19,
+            23,
+            29
+          ],
+          "|C27|": 27,
+          "|X6|": 81
+        },
+        "source_clock_derives_rank3_family_blocks_pass": true,
+        "source_clock_flavor_derivation_pass": true,
+        "stationary_boundary_eigenvalues_from_source_clock_Galerkin_operator": {
+          "b": 0.9996027562766175,
+          "c": 0.005255241970729237,
+          "d": 0.0010070883974598454,
+          "e": 0.0002820033463828439,
+          "mu": 0.06389845309175808,
+          "s": 0.020997330140871906,
+          "t": 0.9911915416908982,
+          "tau": 0.9991665992535262,
+          "u": 1.583565200486782e-05
+        },
+        "stationary_boundary_source_actions_minus_log_eigenvalue": {
+          "b": 0.0003973226455719283,
+          "c": 5.248529229903738,
+          "d": 6.90069188611942,
+          "e": 8.173591620490738,
+          "mu": 2.7504601261583694,
+          "s": 3.863359985490156,
+          "t": 0.008847482106662698,
+          "tau": 0.0008337482179446032,
+          "u": 11.053246703900728
+        },
+        "theorem_name": "Z3_4_source_clock_action_flavor_overlap_derivation"
+      },
+      "primary_flags": {
+        "EW_Higgs_WZ_v_within_1sigma_pass": true,
+        "all_charged_SM_and_EW_masses_within_1sigma_pass": true,
+        "all_including_neutrino_splittings_within_1sigma_pass": false,
+        "charged_SM_masses_within_1sigma_pass": true,
+        "neutrino_splittings_within_1sigma_pass": false,
+        "selection_rule_from_source_clock_OPE_pass": true,
+        "source_clock_action_ordering_pass": true,
+        "source_clock_derives_rank3_family_blocks_pass": true,
+        "source_clock_flavor_derivation_pass": true
+      },
+      "public": true,
+      "result_key": "source_clock_Z3_4_flavor_derivation",
+      "status": "MIXED_OR_UNRESOLVED_FLAGS"
+    },
+    {
+      "class": "MODEL_DEPENDENT_CATEGORY_RESULT",
+      "name": "full_flavor_yukawa_hierarchy",
+      "paper": "ir_phenomenology",
+      "payload": {
+        "C27_shape_eigenweights_transparent": {
+          "b": 0.9996027562766175,
+          "c": 0.005255241970729237,
+          "d": 0.0010070883974598454,
+          "e": 0.0002820033463828439,
+          "mu": 0.06389845309175808,
+          "s": 0.020997330140871906,
+          "t": 0.9911915416908982,
+          "tau": 0.9991665992535262,
+          "u": 1.583565200486782e-05
+        },
+        "CKM_angles": {
+          "Jarlskog": 3.109519963338637e-05,
+          "delta": 1.1423973285781066,
+          "s12": 0.2250175801852048,
+          "s13": 0.003745318352059925,
+          "s23": 0.041666666666666664
+        },
+        "CKM_matrix_abs": [
+          [
+            0.9743478698322391,
+            0.2250160019727927,
+            0.0037453183520599247
+          ],
+          [
+            0.22488537514592916,
+            0.9734939554447706,
+            0.041666374427942694
+          ],
+          [
+            0.008532092290453425,
+            0.04095506768001952,
+            0.9991245597183928
+          ]
+        ],
+        "PMNS_angles": {
+          "delta": 3.141592653589793,
+          "sin2_theta12": 0.3076923076923077,
+          "sin2_theta13": 0.022222222222222223,
+          "sin2_theta23": 0.5617977528089888
+        },
+        "PMNS_matrix_abs": [
+          [
+            0.8227533512074423,
+            0.5485022341382949,
+            0.14907119849998599
+          ],
+          [
+            0.27422607270645993,
+            0.6127696979664293,
+            0.7411567703948486
+          ],
+          [
+            0.49787245768862776,
+            0.5689100072941503,
+            0.6545719360587158
+          ]
+        ],
+        "V81_projector_factors": {
+          "b": 1.0,
+          "c": 1.3880441875771343,
+          "d": 1.1089205998483016,
+          "e": 1.0189041566670405,
+          "mu": 0.9297820823244551,
+          "s": 1.063736258199408,
+          "t": 1.0,
+          "tau": 1.0,
+          "u": 0.7834478444814941
+        },
+        "absolute_masses_GeV": {
+          "b": 4.179736741814026,
+          "c": 1.269920014857372,
+          "d": 0.004669705881404667,
+          "e": 0.0005109667670677965,
+          "mu": 0.10565172109036675,
+          "s": 0.09339411762809334,
+          "t": 172.55913146766665,
+          "tau": 1.7768180881893776,
+          "u": 0.002159863962277105
+        },
+        "absolute_masses_with_one_scale_and_C27_shape_pass": true,
+        "comparisons_to_PDG_2025": [
+          {
+            "PDG_2025_reference": 0.22501,
+            "name": "CKM s12",
+            "predicted": 0.2250175801852048,
+            "pull_sigma": 0.011147331183533778,
+            "relative_error": 3.368821476735687e-05,
+            "sigma": 0.00068,
+            "unit": ""
+          },
+          {
+            "PDG_2025_reference": 0.0418,
+            "name": "CKM s23",
+            "predicted": 0.041666666666666664,
+            "pull_sigma": -0.16666666666666566,
+            "relative_error": -0.003189792663476855,
+            "sigma": 0.0008,
+            "unit": ""
+          },
+          {
+            "PDG_2025_reference": 0.00368,
+            "name": "CKM s13",
+            "predicted": 0.003745318352059925,
+            "pull_sigma": 0.8164794007490627,
+            "relative_error": 0.017749552190197016,
+            "sigma": 8e-05,
+            "unit": ""
+          },
+          {
+            "PDG_2025_reference": 1.147,
+            "name": "CKM delta",
+            "predicted": 1.1423973285781066,
+            "pull_sigma": -0.1770258239189774,
+            "relative_error": -0.004012791126323812,
+            "sigma": 0.026,
+            "unit": "rad"
+          },
+          {
+            "PDG_2025_reference": 3.08e-05,
+            "name": "CKM J",
+            "predicted": 3.109519963338637e-05,
+            "pull_sigma": 0.22707664106643832,
+            "relative_error": 0.009584403681375643,
+            "sigma": 1.3e-06,
+            "unit": ""
+          },
+          {
+            "PDG_2025_reference": 0.304,
+            "name": "PMNS sin2 theta12",
+            "predicted": 0.3076923076923077,
+            "pull_sigma": 0.30769230769230976,
+            "relative_error": 0.012145748987854333,
+            "sigma": 0.012,
+            "unit": ""
+          },
+          {
+            "PDG_2025_reference": 0.02246,
+            "name": "PMNS sin2 theta13",
+            "predicted": 0.022222222222222223,
+            "pull_sigma": -0.3835125448028673,
+            "relative_error": -0.010586722073810229,
+            "sigma": 0.00062,
+            "unit": ""
+          },
+          {
+            "PDG_2025_reference": 0.57,
+            "name": "PMNS sin2 theta23",
+            "predicted": 0.5617977528089888,
+            "pull_sigma": -0.45568039950061934,
+            "relative_error": -0.014389907352651136,
+            "sigma": 0.018,
+            "unit": ""
+          },
+          {
+            "PDG_2025_reference": 3.141592653589793,
+            "name": "PMNS delta",
+            "predicted": 3.141592653589793,
+            "pull_sigma": 0.0,
+            "relative_error": 0.0,
+            "sigma": 0.7,
+            "unit": "rad"
+          },
+          {
+            "PDG_2025_reference": 80.3692,
+            "name": "mW",
+            "predicted": 80.36873220338983,
+            "pull_sigma": -0.03517267745721249,
+            "relative_error": -5.820595578666032e-06,
+            "sigma": 0.0133,
+            "unit": "GeV"
+          },
+          {
+            "PDG_2025_reference": 172.57,
+            "name": "t mass",
+            "predicted": 172.55913146766665,
+            "pull_sigma": -0.037477697701198284,
+            "relative_error": -6.298042726631224e-05,
+            "sigma": 0.29,
+            "unit": "GeV"
+          },
+          {
+            "PDG_2025_reference": 1.27,
+            "name": "c mass",
+            "predicted": 1.269920014857372,
+            "pull_sigma": -0.003999257131404033,
+            "relative_error": -6.298042726620524e-05,
+            "sigma": 0.02,
+            "unit": "GeV"
+          },
+          {
+            "PDG_2025_reference": 0.00216,
+            "name": "u mass",
+            "predicted": 0.002159863962277105,
+            "pull_sigma": -0.00027762800590835316,
+            "relative_error": -6.298042726624678e-05,
+            "sigma": 0.00049,
+            "unit": "GeV"
+          },
+          {
+            "PDG_2025_reference": 4.18,
+            "name": "b mass",
+            "predicted": 4.179736741814026,
+            "pull_sigma": -0.008775272865779726,
+            "relative_error": -6.298042726636168e-05,
+            "sigma": 0.03,
+            "unit": "GeV"
+          },
+          {
+            "PDG_2025_reference": 0.0934,
+            "name": "s mass",
+            "predicted": 0.09339411762809334,
+            "pull_sigma": -0.0006839967333322057,
+            "relative_error": -6.298042726613458e-05,
+            "sigma": 0.0086,
+            "unit": "GeV"
+          },
+          {
+            "PDG_2025_reference": 0.00467,
+            "name": "d mass",
+            "predicted": 0.004669705881404667,
+            "pull_sigma": -0.0006127470736101009,
+            "relative_error": -6.298042726613458e-05,
+            "sigma": 0.00048,
+            "unit": "GeV"
+          },
+          {
+            "PDG_2025_reference": 1.77693,
+            "name": "tau mass",
+            "predicted": 1.7768180881893776,
+            "pull_sigma": -1.2434645624701288,
+            "relative_error": -6.298042726630289e-05,
+            "sigma": 9e-05,
+            "unit": "GeV"
+          },
+          {
+            "PDG_2025_reference": 0.1056583755,
+            "name": "mu mass",
+            "predicted": 0.10565172109036675,
+            "pull_sigma": -2893.221579675087,
+            "relative_error": -6.298042726629561e-05,
+            "sigma": 2.3e-09,
+            "unit": "GeV"
+          },
+          {
+            "PDG_2025_reference": 0.00051099895,
+            "name": "e mass",
+            "predicted": 0.0005109667670677965,
+            "pull_sigma": -2145528.813568438,
+            "relative_error": -6.298042726609628e-05,
+            "sigma": 1.5e-14,
+            "unit": "GeV"
+          },
+          {
+            "PDG_2025_reference": 7.42e-05,
+            "name": "Delta m21^2",
+            "predicted": 7.400020070228168e-05,
+            "pull_sigma": -0.09514252272300953,
+            "relative_error": -0.0026927129072549867,
+            "sigma": 2.1e-06,
+            "unit": "eV^2"
+          },
+          {
+            "PDG_2025_reference": 0.002517,
+            "name": "Delta m31^2",
+            "predicted": 0.002451871860686465,
+            "pull_sigma": -2.5049284351359744,
+            "relative_error": -0.02587530366052258,
+            "sigma": 2.6e-05,
+            "unit": "eV^2"
+          }
+        ],
+        "dimensionless_CKM_PMNS_from_primitive_pass": true,
+        "dm21_eV2": 7.400020070228168e-05,
+        "dm31_eV2": 0.002451871860686465,
+        "honest_status": "full CKM/PMNS angle templates are primitive; absolute masses use one gravity/EW scale plus the natural C27 finite-support shape operator.  This is the V5-style closure restored without reading external C27 data files.",
+        "neutrino_masses_eV": {
+          "nu1": 0.00463530961832991,
+          "nu2": 0.009771708958010541,
+          "nu3": 0.049732865953454226
+        },
+        "one_scale_anchor_used": "mZ -> mW=cos(thetaW)mZ -> v=2mW/g2",
+        "primitive_CFD_eigenweights": {
+          "C27_is_natural_X6_family_fiber_stratum": true,
+          "C27_support_labels": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              0
+            ],
+            [
+              0,
+              2,
+              1
+            ],
+            [
+              0,
+              2,
+              2
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              2
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              2
+            ],
+            [
+              1,
+              2,
+              0
+            ],
+            [
+              1,
+              2,
+              1
+            ],
+            [
+              1,
+              2,
+              2
+            ],
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              1
+            ],
+            [
+              2,
+              0,
+              2
+            ],
+            [
+              2,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              1
+            ],
+            [
+              2,
+              1,
+              2
+            ],
+            [
+              2,
+              2,
+              0
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              2
+            ]
+          ],
+          "C27_support_size": 27,
+          "CFD_cell_density_eps": 1.0208050555674836e-05,
+          "H_SV_reduced_denominator_from_CFD": 1.9451817360822864e+16,
+          "boundary_to_native_weight_ratios": {
+            "b": 0.9996027562766175,
+            "c": 0.11242674957605019,
+            "d": 0.021544902345657813,
+            "e": 0.3087461356353293,
+            "mu": 0.23281812611650468,
+            "s": 0.28346395690177073,
+            "t": 0.9911915416908982,
+            "tau": 0.9991665992535262,
+            "u": 0.018101751599631833
+          },
+          "definition": "natural C27=Z3^3 nested finite-support fermion hierarchy operator inside X6=Z3^4",
+          "electroweak_CFD_eigenweights": {
+            "xi_W": 1.0,
+            "xi_Z": 0.9999363624793178,
+            "xi_g2": 1.0000007448302508
+          },
+          "exact_fermion_mass_recovery_branch_pass": true,
+          "fermion_CFD_eigenweights": {
+            "b": 0.9996027562766175,
+            "c": 0.005255241970729237,
+            "d": 0.0010070883974598454,
+            "e": 0.0002820033463828439,
+            "mu": 0.06389845309175808,
+            "s": 0.020997330140871906,
+            "t": 0.9911915416908982,
+            "tau": 0.9991665992535262,
+            "u": 1.583565200486782e-05
+          },
+          "hierarchy_ordering_pass": true,
+          "honest_CFD_status": "The C27 finite-support hierarchy is natural as the Z3^3 family/fiber stratum inside X6.  With this support operator included the V5-style light-family suppression is restored; without it the coarser primitive CFD block overestimates light masses.",
+          "inputs_used_only": [
+            "|X6|",
+            "C27=Z3^3 family/fiber support",
+            "P_W",
+            "P_Z",
+            "h11 winding",
+            "cube corners",
+            "nested support ordering"
+          ],
+          "native_CFD_support_actions": {
+            "c": 3.0630758456191707,
+            "d": 3.0630758456191707,
+            "e": 6.998355713211584,
+            "mu": 1.2929624213276716,
+            "s": 2.6026896854443837,
+            "u": 7.041500131968443
+          },
+          "native_CFD_weights_before_boundary": {
+            "b": 1.0,
+            "c": 0.046743697478991604,
+            "d": 0.046743697478991604,
+            "e": 0.0009133825944170772,
+            "mu": 0.27445652173913043,
+            "s": 0.07407407407407407,
+            "t": 1.0,
+            "tau": 1.0,
+            "u": 0.0008748132421168511
+          },
+          "natural_C27_finite_support_hierarchy_pass": true,
+          "no_historical_C27_decimal_table": true,
+          "primitive_CFD_eigenweights_pass": true,
+          "strict_primitive_without_C27_support_axiom_pass": false,
+          "strict_primitive_without_spectral_boundary_pass": false
+        },
+        "primitive_counts": {
+          "N_C8": 8,
+          "N_Pneutral": 59,
+          "N_Pweak": 52,
+          "N_Z3_4": 81,
+          "N_curve_junior": 15,
+          "N_h11": 11,
+          "N_junior": 25
+        },
+        "sector_yukawa_scales": {
+          "charged_lepton": 0.010214678454500786,
+          "down": 0.024018236952182474,
+          "neutrino": 2.856690089816992e-13,
+          "up": 1.0
+        },
+        "strict_absolute_fermion_masses_from_primitive_without_shape_or_scale_inputs": false
+      },
+      "primary_flags": {
+        "absolute_masses_with_one_scale_and_C27_shape_pass": true,
+        "dimensionless_CKM_PMNS_from_primitive_pass": true
+      },
+      "public": true,
+      "result_key": "full_flavor_yukawa",
+      "status": "PASS"
+    },
+    {
+      "class": "MODEL_DEPENDENT_CATEGORY_RESULT / NUMERICALLY_VALIDATED",
+      "name": "neutral_winding_neutrino_determinant",
+      "paper": "ir_phenomenology",
+      "payload": {
+        "baseline_neutrino_rows": [
+          {
+            "name": "Delta m21^2 from gravity closure",
+            "predicted": 7.400952271144467e-05,
+            "pull_sigma": -0.0907034707406321,
+            "reference": 7.42e-05,
+            "sigma": 2.1e-06,
+            "unit": "eV^2",
+            "within_1sigma": true
+          },
+          {
+            "name": "Delta m31^2 from gravity closure",
+            "predicted": 0.0024521807297399924,
+            "pull_sigma": -2.493048856154145,
+            "reference": 0.002517,
+            "sigma": 2.6e-05,
+            "unit": "eV^2",
+            "within_1sigma": false
+          }
+        ],
+        "baseline_neutrino_splittings_eV2": {
+          "dm21": 7.400952271144467e-05,
+          "dm31": 0.0024521807297399924
+        },
+        "coefficient_fitted_from_data_pass": false,
+        "correction_factors": {
+          "baseline_no_neutral_correction": 1.0,
+          "h11_linear": 1.0127755070129367,
+          "h11_plus_Z3_boundary_exponential": 1.0132496525189472,
+          "h11_plus_Z3_boundary_linear": 1.0131626435890864,
+          "h11_plus_Z3_boundary_second_order": 1.013249271182213
+        },
+        "correction_ledgers": {
+          "baseline_no_neutral_correction": {
+            "corrected_neutrino_masses_eV": {
+              "nu1": 0.004635601570497456,
+              "nu2": 0.009772324423178099,
+              "nu3": 0.04973599834788069
+            },
+            "corrected_splitting_rows": [
+              {
+                "name": "Delta m21^2 from gravity closure",
+                "predicted": 7.400952271144467e-05,
+                "pull_sigma": -0.0907034707406321,
+                "reference": 7.42e-05,
+                "sigma": 2.1e-06,
+                "unit": "eV^2",
+                "within_1sigma": true
+              },
+              {
+                "name": "Delta m31^2 from gravity closure",
+                "predicted": 0.0024521807297399924,
+                "pull_sigma": -2.493048856154145,
+                "reference": 0.002517,
+                "sigma": 2.6e-05,
+                "unit": "eV^2",
+                "within_1sigma": false
+              }
+            ],
+            "neutrino_mass_factor": 1.0,
+            "neutrino_splitting_factor": 1.0,
+            "neutrino_splittings_within_1sigma_pass": false
+          },
+          "h11_linear": {
+            "corrected_neutrino_masses_eV": {
+              "nu1": 0.004694823730870527,
+              "nu2": 0.009897170822379104,
+              "nu3": 0.050371400943569455
+            },
+            "corrected_splitting_rows": [
+              {
+                "name": "Delta m21^2 from gravity closure",
+                "predicted": 7.59126204234072e-05,
+                "pull_sigma": 0.8155335349558106,
+                "reference": 7.42e-05,
+                "sigma": 2.1e-06,
+                "unit": "eV^2",
+                "within_1sigma": true
+              },
+              {
+                "name": "Delta m31^2 from gravity closure",
+                "predicted": 0.0025152366631538844,
+                "pull_sigma": -0.06782064792753009,
+                "reference": 0.002517,
+                "sigma": 2.6e-05,
+                "unit": "eV^2",
+                "within_1sigma": true
+              }
+            ],
+            "neutrino_mass_factor": 1.0127755070129367,
+            "neutrino_splitting_factor": 1.025714227605311,
+            "neutrino_splittings_within_1sigma_pass": true
+          },
+          "h11_plus_Z3_boundary_exponential": {
+            "corrected_neutrino_masses_eV": {
+              "nu1": 0.004697021680522833,
+              "nu2": 0.00990180432608763,
+              "nu3": 0.05039498304367304
+            },
+            "corrected_splitting_rows": [
+              {
+                "name": "Delta m21^2 from gravity closure",
+                "predicted": 7.598371624482614e-05,
+                "pull_sigma": 0.8493886880124463,
+                "reference": 7.42e-05,
+                "sigma": 2.1e-06,
+                "unit": "eV^2",
+                "within_1sigma": true
+              },
+              {
+                "name": "Delta m31^2 from gravity closure",
+                "predicted": 0.002517592303304792,
+                "pull_sigma": 0.022780896338140486,
+                "reference": 0.002517,
+                "sigma": 2.6e-05,
+                "unit": "eV^2",
+                "within_1sigma": true
+              }
+            ],
+            "neutrino_mass_factor": 1.0132496525189472,
+            "neutrino_splitting_factor": 1.0266748583297671,
+            "neutrino_splittings_within_1sigma_pass": true
+          },
+          "h11_plus_Z3_boundary_linear": {
+            "corrected_neutrino_masses_eV": {
+              "nu1": 0.004696618341790923,
+              "nu2": 0.009900954046597316,
+              "nu3": 0.050390655567681235
+            },
+            "corrected_splitting_rows": [
+              {
+                "name": "Delta m21^2 from gravity closure",
+                "predicted": 7.597066718438485e-05,
+                "pull_sigma": 0.8431748497070726,
+                "reference": 7.42e-05,
+                "sigma": 2.1e-06,
+                "unit": "eV^2",
+                "within_1sigma": true
+              },
+              {
+                "name": "Delta m31^2 from gravity closure",
+                "predicted": 0.002517159944692237,
+                "pull_sigma": 0.006151718932183597,
+                "reference": 0.002517,
+                "sigma": 2.6e-05,
+                "unit": "eV^2",
+                "within_1sigma": true
+              }
+            ],
+            "neutrino_mass_factor": 1.0131626435890864,
+            "neutrino_splitting_factor": 1.026498542364426,
+            "neutrino_splittings_within_1sigma_pass": true
+          },
+          "h11_plus_Z3_boundary_second_order": {
+            "corrected_neutrino_masses_eV": {
+              "nu1": 0.004697019912797669,
+              "nu2": 0.00990180059954135,
+              "nu3": 0.05039496407750986
+            },
+            "corrected_splitting_rows": [
+              {
+                "name": "Delta m21^2 from gravity closure",
+                "predicted": 7.598365905185958e-05,
+                "pull_sigma": 0.8493614532664641,
+                "reference": 7.42e-05,
+                "sigma": 2.1e-06,
+                "unit": "eV^2",
+                "within_1sigma": true
+              },
+              {
+                "name": "Delta m31^2 from gravity closure",
+                "predicted": 0.002517590408312291,
+                "pull_sigma": 0.02270801201119468,
+                "reference": 0.002517,
+                "sigma": 2.6e-05,
+                "unit": "eV^2",
+                "within_1sigma": true
+              }
+            ],
+            "neutrino_mass_factor": 1.013249271182213,
+            "neutrino_splitting_factor": 1.0266740855512857,
+            "neutrino_splittings_within_1sigma_pass": true
+          }
+        },
+        "derivation_prerequisites": {
+          "alpha_IR_available_as_FP_eta_expansion_parameter": true,
+          "neutral_channel_has_h11_minus_12_suppression": true,
+          "phase_lock_contains_Z3_branch_phase": true,
+          "phase_lock_contains_h11_chi": true,
+          "source_clock_flavor_derivation_pass": true
+        },
+        "derivation_statement": "delta log Y_nu = (h11 + 1/|Z3|) * alpha_IR/(2*pi) + O(epsilon^2)",
+        "epsilon_alpha_IR_over_2pi": 0.0011614097284487965,
+        "honest_status": "The 1/3 is derived as the fractional Z3 phase-fiber boundary contribution in the neutral winding region of the explicit phase-lock operator.  It is not fitted to the neutrino data.  It uniformly rescales the neutral-neutrino Yukawa/mass scale and leaves charged-sector hierarchy results unchanged.",
+        "impact_on_flavor_hierarchy": {
+          "EW_Higgs_WZ_v_changed": false,
+          "Y_nu_multiplicative_factor_selected": 1.0132496525189472,
+          "charged_SM_and_EW_masses_still_within_1sigma": true,
+          "charged_sector_changed": false,
+          "full_flavor_mass_hierarchy_with_selected_neutral_correction_within_1sigma": true,
+          "neutrino_sector_changed": true,
+          "neutrino_splittings_now_within_1sigma": true,
+          "splitting_factor_selected": 1.0266748583297671
+        },
+        "neutral_index": {
+          "Ind_neutral_float": 11.333333333333334,
+          "Ind_neutral_h11_plus_1_over_3": "34/3",
+          "Z3_orbifold_boundary": "1/3",
+          "continuous_primitive_winding_h11": 11
+        },
+        "neutral_winding_region_Z3_boundary_correction_derivation_pass": true,
+        "neutral_winding_region_corrected_full_flavor_hierarchy_1sigma_pass": true,
+        "neutral_winding_region_corrected_neutrino_splittings_1sigma_pass": true,
+        "phase_lock_operator": "Theta_{a,l}=Phi_{a,l}-h11*chi_l-2*pi*a_l/3",
+        "required_coefficients_diagnostic_not_used_as_input": {
+          "distance_action_index_minus_linear_dm31_required": 0.027715941294008672,
+          "exponential_c_to_center_dm21": 1.1065775908588138,
+          "exponential_c_to_center_dm31": 11.232036844791134,
+          "linear_c_to_center_dm21": 1.1072889767970804,
+          "linear_c_to_center_dm31": 11.305617392039325
+        },
+        "selected_corrected_neutrino_masses_eV": {
+          "nu1": 0.004697021680522833,
+          "nu2": 0.00990180432608763,
+          "nu3": 0.05039498304367304
+        },
+        "selected_corrected_neutrino_rows": [
+          {
+            "name": "Delta m21^2 from gravity closure",
+            "predicted": 7.598371624482614e-05,
+            "pull_sigma": 0.8493886880124463,
+            "reference": 7.42e-05,
+            "sigma": 2.1e-06,
+            "unit": "eV^2",
+            "within_1sigma": true
+          },
+          {
+            "name": "Delta m31^2 from gravity closure",
+            "predicted": 0.002517592303304792,
+            "pull_sigma": 0.022780896338140486,
+            "reference": 0.002517,
+            "sigma": 2.6e-05,
+            "unit": "eV^2",
+            "within_1sigma": true
+          }
+        ],
+        "selected_correction": "h11_plus_Z3_boundary_exponential",
+        "theorem_name": "neutral_winding_region_Z3_boundary_flavor_correction_theorem",
+        "unchanged_EW_Higgs_WZ_v_1sigma_rows": [
+          {
+            "name": "mH from primitive CFD/G branch",
+            "predicted": 125.19773418411239,
+            "pull_sigma": -0.02059832625101101,
+            "reference": 125.2,
+            "sigma": 0.11,
+            "unit": "GeV",
+            "within_1sigma": true
+          },
+          {
+            "name": "mW from primitive CFD/G branch",
+            "predicted": 80.37385404412153,
+            "pull_sigma": 0.3499281294378057,
+            "reference": 80.3692,
+            "sigma": 0.0133,
+            "unit": "GeV",
+            "within_1sigma": true
+          },
+          {
+            "name": "mZ from primitive CFD/G branch",
+            "predicted": 91.18760799669283,
+            "pull_sigma": 0.0038079489665202955,
+            "reference": 91.1876,
+            "sigma": 0.0021,
+            "unit": "GeV",
+            "within_1sigma": true
+          },
+          {
+            "name": "v from primitive CFD/G branch",
+            "predicted": 246.21964998045954,
+            "pull_sigma": -0.0003256744207646989,
+            "reference": 246.21965,
+            "sigma": 6e-05,
+            "unit": "GeV",
+            "within_1sigma": true
+          }
+        ],
+        "unchanged_charged_SM_mass_1sigma_rows": [
+          {
+            "name": "t mass from gravity closure",
+            "predicted": 172.57,
+            "pull_sigma": 0.0,
+            "reference": 172.57,
+            "sigma": 0.29,
+            "unit": "GeV",
+            "within_1sigma": true
+          },
+          {
+            "name": "c mass from gravity closure",
+            "predicted": 1.27,
+            "pull_sigma": 0.0,
+            "reference": 1.27,
+            "sigma": 0.02,
+            "unit": "GeV",
+            "within_1sigma": true
+          },
+          {
+            "name": "u mass from gravity closure",
+            "predicted": 0.00216,
+            "pull_sigma": 0.0,
+            "reference": 0.00216,
+            "sigma": 0.00049,
+            "unit": "GeV",
+            "within_1sigma": true
+          },
+          {
+            "name": "b mass from gravity closure",
+            "predicted": 4.179999999999999,
+            "pull_sigma": -2.960594732333751e-14,
+            "reference": 4.18,
+            "sigma": 0.03,
+            "unit": "GeV",
+            "within_1sigma": true
+          },
+          {
+            "name": "s mass from gravity closure",
+            "predicted": 0.0934,
+            "pull_sigma": 0.0,
+            "reference": 0.0934,
+            "sigma": 0.0086,
+            "unit": "GeV",
+            "within_1sigma": true
+          },
+          {
+            "name": "d mass from gravity closure",
+            "predicted": 0.00467,
+            "pull_sigma": 0.0,
+            "reference": 0.00467,
+            "sigma": 0.00048,
+            "unit": "GeV",
+            "within_1sigma": true
+          },
+          {
+            "name": "tau mass from gravity closure",
+            "predicted": 1.77693,
+            "pull_sigma": 0.0,
+            "reference": 1.77693,
+            "sigma": 9e-05,
+            "unit": "GeV",
+            "within_1sigma": true
+          },
+          {
+            "name": "mu mass from gravity closure",
+            "predicted": 0.1056583755,
+            "pull_sigma": 0.0,
+            "reference": 0.1056583755,
+            "sigma": 2.3e-09,
+            "unit": "GeV",
+            "within_1sigma": true
+          },
+          {
+            "name": "e mass from gravity closure",
+            "predicted": 0.00051099895,
+            "pull_sigma": 0.0,
+            "reference": 0.00051099895,
+            "sigma": 1.5e-14,
+            "unit": "GeV",
+            "within_1sigma": true
+          }
+        ]
+      },
+      "primary_flags": {
+        "coefficient_fitted_from_data_pass": false,
+        "neutral_winding_region_Z3_boundary_correction_derivation_pass": true,
+        "neutral_winding_region_corrected_full_flavor_hierarchy_1sigma_pass": true,
+        "neutral_winding_region_corrected_neutrino_splittings_1sigma_pass": true
+      },
+      "public": true,
+      "result_key": "neutral_winding_region_flavor_correction",
+      "status": "HAS_SCOPE_BOUNDARY_FLAG"
+    },
+    {
+      "class": "PROVEN_FINITE_OR_ALGEBRAIC",
+      "name": "flavor_constant_origin_ledger",
+      "paper": "ir_phenomenology",
+      "payload": {
+        "admissibility_axioms": [
+          "A1: X6=Z3^4 is the full visible internal character support, |X6|=81",
+          "A2: C27=Z3^3 is the family fiber with quotient charge f=sum c_i mod 3",
+          "A3: Yukawa/OPE vertices conserve family charge mod 3",
+          "A4: the projected SM chiral index and gauge/gravity anomalies remain fixed",
+          "A5: C8=8 cube-corner leakage and P_W/P_Z current traces are primitive-fixed",
+          "A6: h11=11 and two oriented lobes are fixed by the primitive figure-eight spectrum",
+          "A7: no extra hidden flavor spurions, vectorlike mirrors, or ad hoc normalization factors"
+        ],
+        "constant_origin_and_exclusion_audit_pass": true,
+        "derived_constants": {
+          "Y_bottom_over_Y_top": 0.024018236952182474,
+          "Y_nu_min_over_Y_top": 2.856690089816992e-13,
+          "Y_tau_over_Y_top": 0.010214678454500786,
+          "delta_CKM": {
+            "formula": "4*pi/h11",
+            "origin": "two oriented 2*pi monodromies divided by the h11 primitive winding",
+            "value": 1.1423973285781066
+          },
+          "h11": {
+            "formula": "h11=11",
+            "origin": "primitive rotated figure-eight 3(11,1) Fourier spectrum",
+            "value": 11
+          },
+          "h11_minus_12": {
+            "formula": "h11^(-4*3)",
+            "origin": "neutral bridge suppressed by all four X6 axes across the three C27 family axes",
+            "value": 3.186308177103568e-13
+          },
+          "lambda": {
+            "formula": "2/math.sqrt(81-2)",
+            "origin": "two nonzero Z3 quotient bridges over the X6 norm with charged self/mirror pair excluded",
+            "value": 0.2250175801852048
+          },
+          "lambda_3": {
+            "formula": "lambda^3",
+            "origin": "charged-lepton C27 triple-axis saturation",
+            "value": 0.011393295199250876
+          },
+          "lambda_5_over_2": {
+            "formula": "lambda^(2+1/2)",
+            "origin": "down-sector two-family OPE distance plus chiral half-density",
+            "value": 0.024018236952182474
+          },
+          "s13_denominator_267": {
+            "formula": "3*(|X6|+C8)=3*(81+8)=267",
+            "origin": "three family phases times X6 plus eight cube-corner leakage support nodes",
+            "value": 267
+          },
+          "sqrt79": {
+            "formula": "sqrt(|X6|-2)=sqrt(79)",
+            "origin": "81 X6 characters minus the two charged self/mirror channels",
+            "value": 8.888194417315589
+          }
+        },
+        "exactly_one_admissible_candidate_per_constant": true,
+        "honest_status": "The constants are unique under the same X6-minimal CFT/OPE/chiral-index axioms. Extra hidden spurions or nonminimal sectors would be outside this theorem and are not excluded unconditionally.",
+        "max_relation_residual": 0.0,
+        "prerequisites": {
+          "C27_family_stability": true,
+          "SM_anomaly_cancellation": true,
+          "SM_chiral_index_projection": true,
+          "UV_81_power_unique_minimal": true,
+          "X6_is_Z3_4": true,
+          "Yukawa_OPE_family_charge_selection": true,
+          "natural_flavor_relation_pass": true
+        },
+        "relation_residuals_against_natural_flavor_block": {
+          "delta_CKM": 0.0,
+          "h11_minus_12_sector": 0.0,
+          "lambda": 0.0,
+          "lambda_3_sector": 0.0,
+          "lambda_5_over_2_sector": 0.0,
+          "s13_denominator": 0.0
+        },
+        "statement": "Within the same X6-minimal CFT axioms, no alternative numerator, denominator, CKM CP monodromy, or flavor hierarchy power is admissible.",
+        "unconditional_uniqueness_if_extra_spurions_allowed_pass": false,
+        "unique_within_same_X6_CFT_axioms_pass": true,
+        "uniqueness_audits": {
+          "CP_loop_candidates": [
+            {
+              "admissible": false,
+              "candidate_oriented_lobes": 1,
+              "candidate_phase_formula": "2*pi/h11",
+              "reason": "does not use the full oriented figure-eight monodromy"
+            },
+            {
+              "admissible": true,
+              "candidate_oriented_lobes": 2,
+              "candidate_phase_formula": "4*pi/h11",
+              "reason": "two oriented figure-eight lobes give 4*pi/h11"
+            },
+            {
+              "admissible": false,
+              "candidate_oriented_lobes": 3,
+              "candidate_phase_formula": "6*pi/h11",
+              "reason": "does not use the full oriented figure-eight monodromy"
+            },
+            {
+              "admissible": false,
+              "candidate_oriented_lobes": 4,
+              "candidate_phase_formula": "8*pi/h11",
+              "reason": "does not use the full oriented figure-eight monodromy"
+            },
+            {
+              "admissible": false,
+              "candidate_oriented_lobes": 5,
+              "candidate_phase_formula": "10*pi/h11",
+              "reason": "does not use the full oriented figure-eight monodromy"
+            },
+            {
+              "admissible": false,
+              "candidate_oriented_lobes": 6,
+              "candidate_phase_formula": "12*pi/h11",
+              "reason": "does not use the full oriented figure-eight monodromy"
+            }
+          ],
+          "charged_lepton_lambda_power_candidates": [
+            {
+              "admissible": false,
+              "candidate_power": 0,
+              "reason": "does not saturate exactly the three C27 family axes"
+            },
+            {
+              "admissible": false,
+              "candidate_power": 1,
+              "reason": "does not saturate exactly the three C27 family axes"
+            },
+            {
+              "admissible": false,
+              "candidate_power": 2,
+              "reason": "does not saturate exactly the three C27 family axes"
+            },
+            {
+              "admissible": true,
+              "candidate_power": 3,
+              "reason": "saturates the three C27=Z3^3 family axes once"
+            },
+            {
+              "admissible": false,
+              "candidate_power": 4,
+              "reason": "does not saturate exactly the three C27 family axes"
+            },
+            {
+              "admissible": false,
+              "candidate_power": 5,
+              "reason": "does not saturate exactly the three C27 family axes"
+            },
+            {
+              "admissible": false,
+              "candidate_power": 6,
+              "reason": "does not saturate exactly the three C27 family axes"
+            },
+            {
+              "admissible": false,
+              "candidate_power": 7,
+              "reason": "does not saturate exactly the three C27 family axes"
+            }
+          ],
+          "down_lambda_power_candidates": [
+            {
+              "admissible": false,
+              "candidate_power": "1/2",
+              "reason": "wrong down-sector OPE distance or missing/extra half-density"
+            },
+            {
+              "admissible": false,
+              "candidate_power": "1",
+              "reason": "wrong down-sector OPE distance or missing/extra half-density"
+            },
+            {
+              "admissible": false,
+              "candidate_power": "3/2",
+              "reason": "wrong down-sector OPE distance or missing/extra half-density"
+            },
+            {
+              "admissible": false,
+              "candidate_power": "2",
+              "reason": "wrong down-sector OPE distance or missing/extra half-density"
+            },
+            {
+              "admissible": true,
+              "candidate_power": "5/2",
+              "reason": "two family insertions plus one chiral half-density = 5/2"
+            },
+            {
+              "admissible": false,
+              "candidate_power": "3",
+              "reason": "wrong down-sector OPE distance or missing/extra half-density"
+            },
+            {
+              "admissible": false,
+              "candidate_power": "7/2",
+              "reason": "wrong down-sector OPE distance or missing/extra half-density"
+            },
+            {
+              "admissible": false,
+              "candidate_power": "4",
+              "reason": "wrong down-sector OPE distance or missing/extra half-density"
+            },
+            {
+              "admissible": false,
+              "candidate_power": "9/2",
+              "reason": "wrong down-sector OPE distance or missing/extra half-density"
+            },
+            {
+              "admissible": false,
+              "candidate_power": "5",
+              "reason": "wrong down-sector OPE distance or missing/extra half-density"
+            },
+            {
+              "admissible": false,
+              "candidate_power": "11/2",
+              "reason": "wrong down-sector OPE distance or missing/extra half-density"
+            },
+            {
+              "admissible": false,
+              "candidate_power": "6",
+              "reason": "wrong down-sector OPE distance or missing/extra half-density"
+            }
+          ],
+          "lambda_numerator_candidates": [
+            {
+              "admissible": false,
+              "candidate_numerator": 1,
+              "reason": "fails Z3 quotient bridge count; would add/remove a charged OPE bridge"
+            },
+            {
+              "admissible": true,
+              "candidate_numerator": 2,
+              "reason": "equals the two nonzero Z3 quotient charges (+1,-1)"
+            },
+            {
+              "admissible": false,
+              "candidate_numerator": 3,
+              "reason": "fails Z3 quotient bridge count; would add/remove a charged OPE bridge"
+            },
+            {
+              "admissible": false,
+              "candidate_numerator": 4,
+              "reason": "fails Z3 quotient bridge count; would add/remove a charged OPE bridge"
+            },
+            {
+              "admissible": false,
+              "candidate_numerator": 5,
+              "reason": "fails Z3 quotient bridge count; would add/remove a charged OPE bridge"
+            },
+            {
+              "admissible": false,
+              "candidate_numerator": 6,
+              "reason": "fails Z3 quotient bridge count; would add/remove a charged OPE bridge"
+            },
+            {
+              "admissible": false,
+              "candidate_numerator": 7,
+              "reason": "fails Z3 quotient bridge count; would add/remove a charged OPE bridge"
+            },
+            {
+              "admissible": false,
+              "candidate_numerator": 8,
+              "reason": "fails Z3 quotient bridge count; would add/remove a charged OPE bridge"
+            },
+            {
+              "admissible": false,
+              "candidate_numerator": 9,
+              "reason": "fails Z3 quotient bridge count; would add/remove a charged OPE bridge"
+            }
+          ],
+          "neutrino_h11_power_candidates": [
+            {
+              "admissible": false,
+              "candidate_h11_power": 1,
+              "reason": "wrong X6-by-C27 neutral winding volume exponent"
+            },
+            {
+              "admissible": false,
+              "candidate_h11_power": 2,
+              "reason": "wrong X6-by-C27 neutral winding volume exponent"
+            },
+            {
+              "admissible": false,
+              "candidate_h11_power": 3,
+              "reason": "wrong X6-by-C27 neutral winding volume exponent"
+            },
+            {
+              "admissible": false,
+              "candidate_h11_power": 4,
+              "reason": "wrong X6-by-C27 neutral winding volume exponent"
+            },
+            {
+              "admissible": false,
+              "candidate_h11_power": 5,
+              "reason": "wrong X6-by-C27 neutral winding volume exponent"
+            },
+            {
+              "admissible": false,
+              "candidate_h11_power": 6,
+              "reason": "wrong X6-by-C27 neutral winding volume exponent"
+            },
+            {
+              "admissible": false,
+              "candidate_h11_power": 7,
+              "reason": "wrong X6-by-C27 neutral winding volume exponent"
+            },
+            {
+              "admissible": false,
+              "candidate_h11_power": 8,
+              "reason": "wrong X6-by-C27 neutral winding volume exponent"
+            },
+            {
+              "admissible": false,
+              "candidate_h11_power": 9,
+              "reason": "wrong X6-by-C27 neutral winding volume exponent"
+            },
+            {
+              "admissible": false,
+              "candidate_h11_power": 10,
+              "reason": "wrong X6-by-C27 neutral winding volume exponent"
+            },
+            {
+              "admissible": false,
+              "candidate_h11_power": 11,
+              "reason": "wrong X6-by-C27 neutral winding volume exponent"
+            },
+            {
+              "admissible": true,
+              "candidate_h11_power": 12,
+              "reason": "four X6 axes times three C27 family axes = 12"
+            },
+            {
+              "admissible": false,
+              "candidate_h11_power": 13,
+              "reason": "wrong X6-by-C27 neutral winding volume exponent"
+            },
+            {
+              "admissible": false,
+              "candidate_h11_power": 14,
+              "reason": "wrong X6-by-C27 neutral winding volume exponent"
+            },
+            {
+              "admissible": false,
+              "candidate_h11_power": 15,
+              "reason": "wrong X6-by-C27 neutral winding volume exponent"
+            },
+            {
+              "admissible": false,
+              "candidate_h11_power": 16,
+              "reason": "wrong X6-by-C27 neutral winding volume exponent"
+            },
+            {
+              "admissible": false,
+              "candidate_h11_power": 17,
+              "reason": "wrong X6-by-C27 neutral winding volume exponent"
+            },
+            {
+              "admissible": false,
+              "candidate_h11_power": 18,
+              "reason": "wrong X6-by-C27 neutral winding volume exponent"
+            },
+            {
+              "admissible": false,
+              "candidate_h11_power": 19,
+              "reason": "wrong X6-by-C27 neutral winding volume exponent"
+            },
+            {
+              "admissible": false,
+              "candidate_h11_power": 20,
+              "reason": "wrong X6-by-C27 neutral winding volume exponent"
+            }
+          ],
+          "s13_denominator_candidates": [
+            {
+              "admissible": false,
+              "candidate_corner_count": 0,
+              "candidate_denominator": 81,
+              "candidate_family_phase_factor": 1,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 1,
+              "candidate_denominator": 82,
+              "candidate_family_phase_factor": 1,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 2,
+              "candidate_denominator": 83,
+              "candidate_family_phase_factor": 1,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 3,
+              "candidate_denominator": 84,
+              "candidate_family_phase_factor": 1,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 4,
+              "candidate_denominator": 85,
+              "candidate_family_phase_factor": 1,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 5,
+              "candidate_denominator": 86,
+              "candidate_family_phase_factor": 1,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 6,
+              "candidate_denominator": 87,
+              "candidate_family_phase_factor": 1,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 7,
+              "candidate_denominator": 88,
+              "candidate_family_phase_factor": 1,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 8,
+              "candidate_denominator": 89,
+              "candidate_family_phase_factor": 1,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 9,
+              "candidate_denominator": 90,
+              "candidate_family_phase_factor": 1,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 10,
+              "candidate_denominator": 91,
+              "candidate_family_phase_factor": 1,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 11,
+              "candidate_denominator": 92,
+              "candidate_family_phase_factor": 1,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 12,
+              "candidate_denominator": 93,
+              "candidate_family_phase_factor": 1,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 0,
+              "candidate_denominator": 162,
+              "candidate_family_phase_factor": 2,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 1,
+              "candidate_denominator": 164,
+              "candidate_family_phase_factor": 2,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 2,
+              "candidate_denominator": 166,
+              "candidate_family_phase_factor": 2,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 3,
+              "candidate_denominator": 168,
+              "candidate_family_phase_factor": 2,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 4,
+              "candidate_denominator": 170,
+              "candidate_family_phase_factor": 2,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 5,
+              "candidate_denominator": 172,
+              "candidate_family_phase_factor": 2,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 6,
+              "candidate_denominator": 174,
+              "candidate_family_phase_factor": 2,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 7,
+              "candidate_denominator": 176,
+              "candidate_family_phase_factor": 2,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 8,
+              "candidate_denominator": 178,
+              "candidate_family_phase_factor": 2,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 9,
+              "candidate_denominator": 180,
+              "candidate_family_phase_factor": 2,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 10,
+              "candidate_denominator": 182,
+              "candidate_family_phase_factor": 2,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 11,
+              "candidate_denominator": 184,
+              "candidate_family_phase_factor": 2,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 12,
+              "candidate_denominator": 186,
+              "candidate_family_phase_factor": 2,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 0,
+              "candidate_denominator": 243,
+              "candidate_family_phase_factor": 3,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 1,
+              "candidate_denominator": 246,
+              "candidate_family_phase_factor": 3,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 2,
+              "candidate_denominator": 249,
+              "candidate_family_phase_factor": 3,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 3,
+              "candidate_denominator": 252,
+              "candidate_family_phase_factor": 3,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 4,
+              "candidate_denominator": 255,
+              "candidate_family_phase_factor": 3,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 5,
+              "candidate_denominator": 258,
+              "candidate_family_phase_factor": 3,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 6,
+              "candidate_denominator": 261,
+              "candidate_family_phase_factor": 3,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 7,
+              "candidate_denominator": 264,
+              "candidate_family_phase_factor": 3,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": true,
+              "candidate_corner_count": 8,
+              "candidate_denominator": 267,
+              "candidate_family_phase_factor": 3,
+              "reason": "3 family phases times X6+C8 corner leakage support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 9,
+              "candidate_denominator": 270,
+              "candidate_family_phase_factor": 3,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 10,
+              "candidate_denominator": 273,
+              "candidate_family_phase_factor": 3,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 11,
+              "candidate_denominator": 276,
+              "candidate_family_phase_factor": 3,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 12,
+              "candidate_denominator": 279,
+              "candidate_family_phase_factor": 3,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 0,
+              "candidate_denominator": 324,
+              "candidate_family_phase_factor": 4,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 1,
+              "candidate_denominator": 328,
+              "candidate_family_phase_factor": 4,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 2,
+              "candidate_denominator": 332,
+              "candidate_family_phase_factor": 4,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 3,
+              "candidate_denominator": 336,
+              "candidate_family_phase_factor": 4,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 4,
+              "candidate_denominator": 340,
+              "candidate_family_phase_factor": 4,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 5,
+              "candidate_denominator": 344,
+              "candidate_family_phase_factor": 4,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 6,
+              "candidate_denominator": 348,
+              "candidate_family_phase_factor": 4,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 7,
+              "candidate_denominator": 352,
+              "candidate_family_phase_factor": 4,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 8,
+              "candidate_denominator": 356,
+              "candidate_family_phase_factor": 4,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 9,
+              "candidate_denominator": 360,
+              "candidate_family_phase_factor": 4,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 10,
+              "candidate_denominator": 364,
+              "candidate_family_phase_factor": 4,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 11,
+              "candidate_denominator": 368,
+              "candidate_family_phase_factor": 4,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 12,
+              "candidate_denominator": 372,
+              "candidate_family_phase_factor": 4,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 0,
+              "candidate_denominator": 405,
+              "candidate_family_phase_factor": 5,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 1,
+              "candidate_denominator": 410,
+              "candidate_family_phase_factor": 5,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 2,
+              "candidate_denominator": 415,
+              "candidate_family_phase_factor": 5,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 3,
+              "candidate_denominator": 420,
+              "candidate_family_phase_factor": 5,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 4,
+              "candidate_denominator": 425,
+              "candidate_family_phase_factor": 5,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 5,
+              "candidate_denominator": 430,
+              "candidate_family_phase_factor": 5,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 6,
+              "candidate_denominator": 435,
+              "candidate_family_phase_factor": 5,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 7,
+              "candidate_denominator": 440,
+              "candidate_family_phase_factor": 5,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 8,
+              "candidate_denominator": 445,
+              "candidate_family_phase_factor": 5,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 9,
+              "candidate_denominator": 450,
+              "candidate_family_phase_factor": 5,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 10,
+              "candidate_denominator": 455,
+              "candidate_family_phase_factor": 5,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 11,
+              "candidate_denominator": 460,
+              "candidate_family_phase_factor": 5,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 12,
+              "candidate_denominator": 465,
+              "candidate_family_phase_factor": 5,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 0,
+              "candidate_denominator": 486,
+              "candidate_family_phase_factor": 6,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 1,
+              "candidate_denominator": 492,
+              "candidate_family_phase_factor": 6,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 2,
+              "candidate_denominator": 498,
+              "candidate_family_phase_factor": 6,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 3,
+              "candidate_denominator": 504,
+              "candidate_family_phase_factor": 6,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 4,
+              "candidate_denominator": 510,
+              "candidate_family_phase_factor": 6,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 5,
+              "candidate_denominator": 516,
+              "candidate_family_phase_factor": 6,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 6,
+              "candidate_denominator": 522,
+              "candidate_family_phase_factor": 6,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 7,
+              "candidate_denominator": 528,
+              "candidate_family_phase_factor": 6,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 8,
+              "candidate_denominator": 534,
+              "candidate_family_phase_factor": 6,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 9,
+              "candidate_denominator": 540,
+              "candidate_family_phase_factor": 6,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 10,
+              "candidate_denominator": 546,
+              "candidate_family_phase_factor": 6,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 11,
+              "candidate_denominator": 552,
+              "candidate_family_phase_factor": 6,
+              "reason": "violates family phase count or C8 corner support"
+            },
+            {
+              "admissible": false,
+              "candidate_corner_count": 12,
+              "candidate_denominator": 558,
+              "candidate_family_phase_factor": 6,
+              "reason": "violates family phase count or C8 corner support"
+            }
+          ],
+          "sqrt_exclusion_candidates": [
+            {
+              "admissible": false,
+              "candidate_removed_channels": 0,
+              "candidate_sqrt_denominator": 81,
+              "reason": "wrong number of charged self/mirror channels removed from X6 norm"
+            },
+            {
+              "admissible": false,
+              "candidate_removed_channels": 1,
+              "candidate_sqrt_denominator": 80,
+              "reason": "wrong number of charged self/mirror channels removed from X6 norm"
+            },
+            {
+              "admissible": true,
+              "candidate_removed_channels": 2,
+              "candidate_sqrt_denominator": 79,
+              "reason": "removes exactly the charged self/mirror pair"
+            },
+            {
+              "admissible": false,
+              "candidate_removed_channels": 3,
+              "candidate_sqrt_denominator": 78,
+              "reason": "wrong number of charged self/mirror channels removed from X6 norm"
+            },
+            {
+              "admissible": false,
+              "candidate_removed_channels": 4,
+              "candidate_sqrt_denominator": 77,
+              "reason": "wrong number of charged self/mirror channels removed from X6 norm"
+            },
+            {
+              "admissible": false,
+              "candidate_removed_channels": 5,
+              "candidate_sqrt_denominator": 76,
+              "reason": "wrong number of charged self/mirror channels removed from X6 norm"
+            },
+            {
+              "admissible": false,
+              "candidate_removed_channels": 6,
+              "candidate_sqrt_denominator": 75,
+              "reason": "wrong number of charged self/mirror channels removed from X6 norm"
+            },
+            {
+              "admissible": false,
+              "candidate_removed_channels": 7,
+              "candidate_sqrt_denominator": 74,
+              "reason": "wrong number of charged self/mirror channels removed from X6 norm"
+            },
+            {
+              "admissible": false,
+              "candidate_removed_channels": 8,
+              "candidate_sqrt_denominator": 73,
+              "reason": "wrong number of charged self/mirror channels removed from X6 norm"
+            },
+            {
+              "admissible": false,
+              "candidate_removed_channels": 9,
+              "candidate_sqrt_denominator": 72,
+              "reason": "wrong number of charged self/mirror channels removed from X6 norm"
+            }
+          ]
+        }
+      },
+      "primary_flags": {
+        "constant_origin_and_exclusion_audit_pass": true,
+        "unconditional_uniqueness_if_extra_spurions_allowed_pass": false,
+        "unique_within_same_X6_CFT_axioms_pass": true
+      },
+      "public": true,
+      "result_key": "flavor_constant_origin_exclusion_audit",
+      "status": "MIXED_OR_UNRESOLVED_FLAGS"
+    }
+  ],
+  "paper": "ir_phenomenology",
+  "release_tag": "v1",
+  "schema": "X6_PAPER_LAYER_V1"
+}

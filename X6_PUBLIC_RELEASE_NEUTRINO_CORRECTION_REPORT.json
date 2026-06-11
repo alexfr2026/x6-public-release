@@ -1,0 +1,77 @@
+{
+  "C_nu": 1.0132496525189472,
+  "C_nu_squared": 1.0266748583297671,
+  "EW_Higgs_WZ_v_unchanged": true,
+  "baseline_neutrino_splittings_eV2": {
+    "dm21": 7.400952271144467e-05,
+    "dm31": 0.0024521807297399924
+  },
+  "baseline_rows": [
+    {
+      "name": "Delta m21^2 from gravity closure",
+      "predicted": 7.400952271144467e-05,
+      "pull_sigma": -0.0907034707406321,
+      "reference": 7.42e-05,
+      "sigma": 2.1e-06,
+      "unit": "eV^2",
+      "within_1sigma": true
+    },
+    {
+      "name": "Delta m31^2 from gravity closure",
+      "predicted": 0.0024521807297399924,
+      "pull_sigma": -2.493048856154145,
+      "reference": 0.002517,
+      "sigma": 2.6e-05,
+      "unit": "eV^2",
+      "within_1sigma": false
+    }
+  ],
+  "charged_sector_cancellation_statement": "all-sector winding audit gives zero unabsorbed charged index; only the modular-neutral neutrino determinant is retained in release tables",
+  "charged_sector_unchanged": true,
+  "corrected_rows": [
+    {
+      "name": "Delta m21^2 from gravity closure",
+      "predicted": 7.598371624482614e-05,
+      "pull_sigma": 0.8493886880124463,
+      "reference": 7.42e-05,
+      "sigma": 2.1e-06,
+      "unit": "eV^2",
+      "within_1sigma": true
+    },
+    {
+      "name": "Delta m31^2 from gravity closure",
+      "predicted": 0.002517592303304792,
+      "pull_sigma": 0.022780896338140486,
+      "reference": 0.002517,
+      "sigma": 2.6e-05,
+      "unit": "eV^2",
+      "within_1sigma": true
+    }
+  ],
+  "epsilon_alpha_IR_over_2pi": 0.0011614097284487965,
+  "neutral_index": {
+    "Ind_neutral_float": 11.333333333333334,
+    "Ind_neutral_h11_plus_1_over_3": "34/3",
+    "Z3_orbifold_boundary": "1/3",
+    "continuous_primitive_winding_h11": 11
+  },
+  "public_default_release_correction": true,
+  "pull_deltas": [
+    {
+      "baseline_pull_sigma": -0.0907034707406321,
+      "corrected_pull_sigma": 0.8493886880124463,
+      "delta_pull_sigma": 0.9400921587530784,
+      "name": "Delta m21^2 from gravity closure"
+    },
+    {
+      "baseline_pull_sigma": -2.493048856154145,
+      "corrected_pull_sigma": 0.022780896338140486,
+      "delta_pull_sigma": 2.5158297524922855,
+      "name": "Delta m31^2 from gravity closure"
+    }
+  ],
+  "schema": "X6_NEUTRINO_CORRECTION_REPORT_V1",
+  "selected_correction": "h11_plus_Z3_boundary_exponential",
+  "status": "HAS_SCOPE_BOUNDARY_FLAG",
+  "theorem_key": "neutral_winding_region_flavor_correction"
+}

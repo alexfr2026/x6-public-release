@@ -1,0 +1,91 @@
+{
+  "accepted_default_branch": "displayed_monotone_branch + neutral_residue_only_branch",
+  "branch_invariant_layer": [
+    "exact finite identities",
+    "leading CKM/PMNS angle ledgers",
+    "color/family selection rules",
+    "support algebra",
+    "C_nu neutral determinant factor"
+  ],
+  "branch_sensitive_layer": [
+    "anchored charged-mass hierarchy rows",
+    "branch-normalized low-energy scale setting",
+    "scheme-dependent quark rows"
+  ],
+  "branches": [
+    {
+      "branch": "displayed_monotone_branch",
+      "description": "baseline C27 hierarchy branch",
+      "max_fractional_shift_charged_lepton": 0.0,
+      "max_fractional_shift_neutrino_splitting": 0.0,
+      "max_fractional_shift_quark": 0.0,
+      "rejection_reason": "not rejected",
+      "status": "accepted"
+    },
+    {
+      "branch": "mild_monotone_near_branch_A",
+      "description": "preserves ordering; varies light-family eigenweights in same branch cell",
+      "max_fractional_shift_charged_lepton": 0.008,
+      "max_fractional_shift_neutrino_splitting": 0.003,
+      "max_fractional_shift_quark": 0.006,
+      "rejection_reason": "not rejected",
+      "status": "admissible_control"
+    },
+    {
+      "branch": "mild_monotone_near_branch_B",
+      "description": "preserves heavy line; varies middle-family eigenweights",
+      "max_fractional_shift_charged_lepton": 0.007,
+      "max_fractional_shift_neutrino_splitting": 0.006,
+      "max_fractional_shift_quark": 0.012,
+      "rejection_reason": "not rejected",
+      "status": "admissible_control"
+    },
+    {
+      "branch": "family_inverted_branch",
+      "description": "interchanges light/middle ordering",
+      "max_fractional_shift_charged_lepton": 1.0,
+      "max_fractional_shift_neutrino_splitting": 0.0,
+      "max_fractional_shift_quark": 1.0,
+      "rejection_reason": "violates C27->Z3 family orientation",
+      "status": "rejected"
+    },
+    {
+      "branch": "heavy_split_branch",
+      "description": "detaches heavy-family line from common normalization",
+      "max_fractional_shift_charged_lepton": 0.05,
+      "max_fractional_shift_neutrino_splitting": 0.0,
+      "max_fractional_shift_quark": 0.05,
+      "rejection_reason": "requires extra sector normalization",
+      "status": "rejected"
+    },
+    {
+      "branch": "sign_indefinite_branch",
+      "description": "allows a boundary eigenvalue to cross zero",
+      "max_fractional_shift_charged_lepton": null,
+      "max_fractional_shift_neutrino_splitting": null,
+      "max_fractional_shift_quark": null,
+      "rejection_reason": "fails positivity of finite boundary operator",
+      "status": "rejected"
+    },
+    {
+      "branch": "per_family_normalization_branch",
+      "description": "renormalizes each family independently",
+      "max_fractional_shift_charged_lepton": null,
+      "max_fractional_shift_neutrino_splitting": null,
+      "max_fractional_shift_quark": null,
+      "rejection_reason": "introduces hidden mass-by-mass knobs",
+      "status": "rejected"
+    },
+    {
+      "branch": "neutral_residue_only_branch",
+      "description": "charged residues trivial; modular-neutral determinant retained",
+      "max_fractional_shift_charged_lepton": 0.0,
+      "max_fractional_shift_neutrino_splitting": 0.0266748583,
+      "max_fractional_shift_quark": 0.0,
+      "rejection_reason": "not rejected; default neutrino convention",
+      "status": "accepted"
+    }
+  ],
+  "schema": "X6_IR_BRANCH_CONTROLS_V1",
+  "submission_status": "generator-backed local enumeration; rejected branches are negative controls, not uncertainty sources"
+}

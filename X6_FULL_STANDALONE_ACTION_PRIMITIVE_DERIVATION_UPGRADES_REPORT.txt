@@ -1,0 +1,373 @@
+X6 FULL STANDALONE -- ACTION/PRIMITIVE DERIVATION UPGRADES
+==============================================================================
+Primitive data source: bundled P_MODIFIED inside script; no external JSON/CSV/NPZ Fourier certificate loading.
+selected_h11: 11
+Omega_Tf_over_2pi: -0.09090909090909091
+m1_signed_modes: [-13, -10, -7, -4, -1, 2, 5, 8, 11]
+m2_signed_modes: [-11, -8, -5, -2, 1, 4, 7, 10, 13]
+eta^2: 7205/2
+eta: 60.02082971769051
+alpha bridge block: action_alpha_bridge_cosine_misalignment_audit
+
+explicit_BRST_complex_no_ghost_theorem
+theorem_name: explicit_T_minus_2_BRST_complex_no_ghost_theorem
+explicit_fields_stress_tensor_Q_ghost_number_Hphys_no_ghost_pass: True
+explicit_BRST_complex_no_ghost_theorem_pass: True
+topological_cohomology_identity_only: True
+explicit_BRST_complex_no_ghost_theorem_pass: True
+honest_status: The T_-2 sector is now an explicit label-trivial weight-(1,0) bc/topological BRST complex with c=-2, nilpotent Q, ghost grading, identity-only cohomology, a contracting homotopy, and a no-ghost proof on H_Q.  It cancels central charge without adding X6 labels or physical negative-norm states; it is not a new unitary matter CFT.
+
+BRST_COHOMOLOGY_EXACT_X6_SECTOR_THEOREM
+theorem_name: BRST_COHOMOLOGY_EXACT_X6_SECTOR_THEOREM
+BRST_cohomology_preserves_exact_X6_sector_pass: True
+rank4_to_6D_bridge_cohomological_not_only_central_charge_pass: True
+effective_internal_c: 6
+honest_status: rank-4 finite labels are not equated bare to a 6D sigma model; the physical 6D sector is the A2^4 cover reduced by label-trivial T_{-2} BRST cohomology.
+
+STRICT_OPERATOR_ALGEBRAIC_FINAL_PHYSICAL_RCFT_OBJECT_THEOREM
+theorem_name: STRICT_OPERATOR_ALGEBRAIC_FINAL_PHYSICAL_RCFT_OBJECT_THEOREM
+operator_algebraic_final_physical_RCFT_object_constructed_pass: True
+strict_operator_algebraic_existence_closed_for_replaced_A2_4_BRST_object_pass: True
+honest_status: The final physical RCFT/VOA object is the BRST cohomology H_Q(V_A2^4 tensor T_-2). This closes operator-algebraic existence for the replaced object, while the retired old c=4,h=1/6 package is not claimed as a standalone VOA.
+
+GRAVITY_ANCHOR_DERIVATION_LEDGER_THEOREM
+theorem_name: GRAVITY_ANCHOR_DERIVATION_LEDGER_THEOREM
+dimensionless_gravity_ratio_derivation_ledger_complete_pass: True
+one_dimensional_anchor_policy_explicit_pass: True
+honest_status: The script derives dimensionless gravity/coupling/hierarchy data and declares exactly one dimensional anchor for SI output. Absolute SI G without any physical anchor remains outside finite-combinatorial derivation.
+
+HIDDEN_SECTOR_NONLOCAL_COMPLETION_BOUNDARY_THEOREM
+theorem_name: HIDDEN_SECTOR_NONLOCAL_COMPLETION_BOUNDARY_THEOREM
+hidden_sector_no_extra_observable_cohomology_within_X6_axioms_pass: True
+hidden_sector_global_nonlocal_scope_boundary_explicit_pass: True
+honest_status: Inside the local X6 cohomology category, extra observable hidden channels are excluded or trivialized. Arbitrary decoupled/nonlocal tensor factors are not absolutely banned; they remain outside the scoped physical claim.
+
+EXPLICIT_T_MINUS_2_BRST_COMPLEX_NO_GHOST_COMPLETION_THEOREM
+theorem_name: EXPLICIT_T_MINUS_2_BRST_COMPLEX_NO_GHOST_COMPLETION_THEOREM
+explicit_fields_stress_tensor_Q_ghost_number_Hphys_no_ghost_pass: True
+explicit_BRST_complex_no_ghost_theorem_pass: True
+explicit_fields_pass: True
+stress_tensor_pass: True
+nilpotent_Q_pass: True
+ghost_number_grading_pass: True
+physical_Hilbert_space_identity_only_pass: True
+no_ghost_theorem_for_T_minus_2_in_X6_embedding_pass: True
+explicit_BRST_complex_no_ghost_theorem_pass: True
+honest_status: This is an explicit label-trivial c=-2 bc/topological BRST complex embedded over X6. It gives fields, OPEs, stress tensor, Q, ghost grading, H_phys, contracting homotopy and no-ghost proof. It does not claim T_-2 is an independent unitary matter CFT; it is a BRST/topological cancellation sector with identity-only cohomology.
+
+SUPERFLUID_DENSITY_SELF_NORMALIZATION_AND_ONE_SI_ANCHOR_THEOREM
+theorem_name: SUPERFLUID_DENSITY_SELF_NORMALIZATION_AND_ONE_SI_ANCHOR_THEOREM
+rho_s_derived_from_X6_action_pass: True
+kappa4_inverse_from_superfluid_density_pass: True
+internal_model_scale_derived_without_external_anchor_pass: True
+one_SI_anchor_SM_GR_recovery_under_1sigma_pass: True
+superfluid_density_self_normalization_theorem_pass: True
+max_abs_pull_sigma_audited_SM_GR_rows: 0.855713643556058
+honest_status: The internal X6 superfluid density fixes the model stiffness scale.  With exactly one SI dimensional anchor, the audited alpha, EW/charged masses, corrected neutrino splittings, and Schur-corrected G_N rows are all below 1 sigma.  The theorem still does not claim SI units from finite combinatorics alone.
+
+LOCAL_OBSERVABLE_ALGEBRA_NO_EXTRA_SECTOR_THEOREM
+theorem_name: LOCAL_OBSERVABLE_ALGEBRA_NO_EXTRA_SECTOR_THEOREM
+complete_X6_projector_resolution_pass: True
+X6_translation_fusion_covariance_pass: True
+joint_commutant_scalar_only_pass: True
+BRST_topological_factor_does_not_enlarge_observable_algebra_pass: True
+no_extra_local_observable_X6_channel_pass: True
+local_observable_algebra_equals_X6_BRST_cohomology_pass: True
+projector_commutant_dimension: 81
+translation_commutant_dimension: 81
+joint_projector_translation_commutant_dimension: 1
+honest_status: All local operators preserving the full X6 projector resolution and Z3^4 fusion/translation covariance reduce to scalars on BRST cohomology; arbitrary decoupled nonlocal tensor factors remain outside this local theorem.
+
+PRIMITIVE_SEED_COUPLING_FROM_ACTION_AND_PRIMITIVE_THEOREM
+theorem_name: PRIMITIVE_SEED_COUPLING_FROM_ACTION_AND_PRIMITIVE_THEOREM
+honest_status: The arbitrary 1e-3 lambda is retired from the action-normalized seed.  The exact primitive orbit still requires the source-clock connection; the bare radial channel is not overclaimed.
+
+PW_PZ_ACTION_SELECTED_PROJECTORS_THEOREM
+theorem_name: PW_PZ_ACTION_SELECTED_PROJECTORS_THEOREM
+honest_status: PW and PZ are not merely copied into cosmology; they are the finite X6 projectors selected by the locked local-current action constraints.
+
+STRESS_TENSOR_COSMOLOGY_PARTITION_THEOREM
+theorem_name: STRESS_TENSOR_COSMOLOGY_PARTITION_THEOREM
+honest_status: The 59:27 ratio is derived at the locked IR saddle from stress-energy support; it is not claimed as rho_Lambda(a) tracking rho_m(a) at all redshifts.
+
+MATTER_ACTION_DARK_BARYON_PARTITION_THEOREM
+theorem_name: MATTER_ACTION_DARK_BARYON_PARTITION_THEOREM
+honest_status: The matter action support partitions the nonidentity weak sector into C8 baryonic support and 43 screened/dark support modes.
+
+H11_MINIMAL_ACTION_STABLE_CLOSURE_THEOREM
+theorem_name: H11_MINIMAL_ACTION_STABLE_CLOSURE_THEOREM
+honest_status: h=11 is selected as the minimal odd stable ground closure; h=13 and larger are not banned but are treated as higher/excited IR sectors requiring separate prediction ledgers.
+
+UNIQUE_Z3_COVARIANT_CONNECTION_COMPLETION_THEOREM
+theorem_name: UNIQUE_Z3_COVARIANT_CONNECTION_COMPLETION_THEOREM
+primitive_connection_unique_minimal_Z3_covariant_completion_pass: True
+primitive_seed_plus_connection_Euler_Lagrange_residual_zero_pass: True
+honest_status: the radial potential is deliberately not promoted to the full microscopic orbit generator; exact closure is the unique minimal Z3-covariant source-clock completion.
+
+UNIQUE_LOCAL_ALPHA_BRIDGE_SCALAR_THEOREM
+theorem_name: UNIQUE_LOCAL_ALPHA_BRIDGE_SCALAR_THEOREM
+alpha_bridge_unique_local_X6_scalar_pass: True
+derived_denominator: 369360
+honest_status: unique inside the local X6 variational action category; not a claim of uniqueness against arbitrary nonlocal hidden counterterms.
+
+ENGINEERING VALIDATION LEDGER
+flag_tier_counts: {'MODEL_DEPENDENT': 152, 'FAILED_OR_UNRESOLVED': 29, 'PROVEN_FINITE_OR_ALGEBRAIC': 35, 'NUMERICALLY_VALIDATED': 26, 'SCOPE_BOUNDARY_FALSE_BY_DESIGN': 7}
+fallback_policy: {'bundled_exact_primitive_seed_required_for_strict_theorem': True, 'bundled_exact_primitive_seed_pass': True, 'legacy_npz_loader_enabled': False, 'radial_congruence_fallback_used': True, 'radial_exact_coefficients_used': False, 'radial_fallback_is_diagnostic_only': True, 'strict_flags_blocked_by_fallback_pass': True}
+numerical_policy: {'least_squares_rank_conditioning_exposed': True, 'radial_lstsq_rank_conditioning_pass': True, 'tolerances_are_audited_not_proof': True}
+engineering_validation_ledger_pass: True
+honest_status: The script is executable Python and now emits a tiered evidence ledger; unresolved strict claims and scope boundaries are classified rather than hidden. Strict public claims must be read through this ledger rather than through undifferentiated *_pass booleans.
+
+PUBLIC CHECKS
+figure8_fourier_pass: True
+z3_layers_pass: True
+cube_checkerboard_pass: True
+projector_trace_pass: True
+h11_trace_pass: True
+complete_character_basis_pass: True
+modular_data_pass: True
+torus_partition_function_pass: True
+left_right_hilbert_pass: True
+UNCONDITIONAL_FINITE_X6_RCFT_PASS: True
+primitive_three_void_potential_fourier_origin_pass: True
+no_27_or_81_independent_voids_pass: True
+lambda_backreaction_only_insufficient_but_connection_closes_pass: True
+primitive_potential_plus_phase_lock_connection_recovers_fourier_orbit_pass: True
+internal_C27_external_phase_action_split_complete_pass: True
+C27_support_not_27_families_pass: True
+external_Z3_is_colorless_phase_fiber_pass: True
+all_constants_classified_by_origin_pass: True
+no_external_comparison_constant_used_as_internal_derivation_pass: True
+primitive_seed_parameters_distinguished_from_final_CFT_couplings_pass: True
+no_27_or_81_independent_voids_top_level_pass: True
+twenty_seven_void_interpretation_rejected: True
+eighty_one_void_interpretation_rejected: True
+all_source_clock_gaps_primitive_derived_pass: True
+eta_hierarchy_primitive_derived_pass: True
+radial_seed_not_full_action_connection_required_pass: True
+PRIMITIVE_FIGURE8_EMBEDS_IN_X6_PASS: True
+visible_minimal_X6_has_no_extra_hidden_factor_pass: True
+heterotic_critical_completion_pass: True
+explicit_affine_gauge_lattice_sector_pass: True
+full_left_moving_gauge_sector_pass: True
+full_real_heterotic_BRST_cohomology_pass: True
+full_spectrum_from_characters_BRST_gauge_pass: True
+continuum_to_finite_ghost_determinant_pass: True
+stronger_canonical_continuum_ghost_determinant_pass: True
+worldsheet_surface_sewing_theorem_pass: True
+amplitude_level_surface_sewing_pass: True
+worldsheet_action_pass: True
+FP_eta_alpha_pass: True
+void_vortex_fluctuation_spectrum_derivation_pass: True
+void_FP_eta_determinant_from_fluctuation_spectrum_pass: True
+model_specific_graviton_Einstein_normalization_pass: True
+transparency_manifest_pass: True
+infinite_oscillator_tower_control_theorem_pass: True
+standard_4d_visible_spectrum_SM_comparison_pass: True
+full_CKM_PMNS_from_winding_generation_counts_pass: True
+absolute_masses_with_one_scale_and_C27_shape_pass: True
+gravity_input_Higgs_and_all_mass_closure_pass: True
+primitive_CFD_eigenweights_pass: True
+natural_C27_finite_support_hierarchy_pass: True
+source_clock_Z3_4_flavor_derivation_pass: True
+source_clock_charged_SM_and_EW_masses_within_1sigma_pass: True
+neutral_winding_region_Z3_boundary_correction_derivation_pass: True
+neutral_winding_region_corrected_neutrino_splittings_1sigma_pass: True
+neutral_winding_region_corrected_full_flavor_hierarchy_1sigma_pass: True
+all_flavor_sectors_tested_for_winding_correction_pass: True
+charged_sector_indices_cancel_pass: True
+neutral_neutrino_index_survives_pass: True
+charged_masses_unchanged_by_index_rule_not_by_manual_choice_pass: True
+full_flavor_after_all_sector_rule_within_1sigma_pass: True
+universal_nonzero_charged_correction_rejected_pass: True
+all_sector_winding_region_flavor_correction_audit_pass: True
+inert_tensor_factor_holonomy_reduction_pass: True
+exactly_unobservable_inert_factors_reduce_to_X6_holonomy_pass: True
+nontrivial_spectator_RCFT_rejected_as_not_exactly_inert_pass: True
+minimal_observable_X6_CFT_unconditional_after_holonomy_reduction_pass: True
+formal_tensor_product_quotient_reduction_pass: True
+formal_all_tensor_factors_quotiented_or_outside_minimal_observable_CFT_pass: True
+CFD_SV_mass_branch_exclusion_theorem_pass: True
+no_new_mass_branch_spurion_holonomy_theorem_pass: True
+nonzero_mass_spurions_are_observable_or_nonminimal_pass: True
+source_clock_Yukawa_operator_uniqueness_theorem_pass: True
+neutral_winding_heat_kernel_determinant_theorem_pass: True
+M4_GR_worldsheet_projection_theorem_pass: True
+G_observed_compatible_with_model_pass: True
+H_W_Z_v_within_1sigma_pass: True
+continuum_to_finite_equivalence_theorem_pass: True
+true_surface_sewing_moduli_ghost_pass: True
+one_constant_GR_normalization_closure_pass: True
+X6_superfluid_gravity_coupling_derived_pass: True
+X6_superfluid_Planck_Higgs_ratio_pass: True
+no_new_gravity_spurion_inside_minimal_X6_pass: True
+gravity_action_inverse_gap_correction_theorem_pass: True
+gravity_neutral_phase_schur_complement_derivation_pass: True
+gravity_schur_trace_equals_inverse_31_pass: True
+gravity_schur_exact_G_within_1sigma_pass: True
+gravity_action_first_second_order_G_within_1sigma_pass: True
+gravity_correction_no_new_spurion_pass: True
+all_five_schur_upgrade_pass: True
+neutral_neutrino_winding_schur_complement_pass: True
+flavor_hierarchy_source_clock_schur_seesaw_pass: True
+alpha_FP_eta_block_schur_determinant_pass: True
+mass_branch_schur_exclusion_pass: True
+CKM_PMNS_off_family_schur_mixing_pass: True
+canonical_alpha_gauge_normalization_pass: True
+action_derived_alpha_from_superfluid_action_pass: True
+action_alpha_uses_no_integer_137_pass: True
+action_alpha_matches_CODATA_relaxed_1e_minus_6_pass: True
+action_alpha_bridge_candidate_matches_external_1sigma_pass: True
+action_alpha_bridge_candidate_uses_no_integer_137_pass: True
+weaker_finite_pointed_modular_category_or_candidate_RCFT_pass: True
+winding_generation_flavor_derivation_pass: True
+dark_energy_dark_matter_matter_ratio_from_CFD_pass: True
+vacuum_matter_partition_from_locked_X6_action_pass: True
+rho_Lambda_over_rho_m_equals_PZ_over_C27_pass: True
+Omega_Lambda_equals_59_over_86_pass: True
+Omega_m_equals_27_over_86_pass: True
+dark_matter_to_baryonic_matter_equals_43_over_8_pass: True
+dark_matter_over_total_matter_equals_43_over_51_pass: True
+baryon_over_total_matter_equals_8_over_51_pass: True
+Omega_m_Omega_Lambda_baryon_cdm_within_1sigma_pass: True
+PZ_over_C27_unique_best_among_tested_simple_channels_pass: True
+H0_redshift_flow_from_CFD_vacuum_sector_pass: True
+CFD_stress_energy_derivation_pass: True
+stress_energy_ratios_match_CFD_counts_pass: True
+covariant_conservation_total_pass: True
+dust_and_vacuum_equations_of_state_pass: True
+visible_fermions_are_odd_CFD_BRST_exterior_elements_pass: True
+Pauli_exclusion_from_CFD_exterior_algebra_pass: True
+precise_odd_even_decomposition_pass: True
+real_exclusion_law_pass: True
+bridge_to_BRST_worldsheet_physics_pass: True
+boson_fermion_same_framework_pass: True
+Z3_generation_fusion_OPE_BRST_stability_pass: True
+C27_full_fiber_modular_closure_pass: True
+C27_mass_operator_block_stability_pass: True
+Z3_generation_CFT_stability_refined_pass: True
+SM_representation_chiral_index_after_projection_pass: True
+SM_anomaly_cancellation_after_projection_pass: True
+no_vectorlike_mirror_pair_after_projection_pass: True
+UV_completion_unique_within_X6_minimal_class_pass: True
+hierarchy_81_power_derived_pass: True
+hierarchy_81_power_unique_minimal_pass: True
+natural_flavor_relation_within_CFT_pass: True
+natural_flavor_unique_within_X6_minimal_class_pass: True
+flavor_constant_origin_and_exclusion_audit_pass: True
+flavor_constants_unique_within_same_X6_CFT_axioms_pass: True
+central_charge_rank4_vs_sigma6_gap_acknowledged_pass: True
+family_count_no_if_false_hardcode_pass: True
+canonical_alpha_reclassified_as_ansatz_pass: True
+source_clock_connection_recovery_pass: True
+exact_primitive_fourier_coefficients_used_pass: True
+gauge_branch_selection_not_unique_derivation_acknowledged_pass: True
+weak_color_label_assignment_not_pure_theorem_acknowledged_pass: True
+global_dashboard_is_curated_acknowledged_pass: True
+truncated_qseries_not_full_VOA_proof_acknowledged_pass: True
+A2_4_strict_lattice_VOA_cover_pass: True
+topological_BRST_c_minus_2_repairs_heterotic_left_c_pass: True
+topological_BRST_preserves_Z3_4_81_labels_pass: True
+topological_BRST_preserves_C27_three_families_pass: True
+topological_BRST_preserves_projector_alpha_pipeline_pass: True
+strict_VOA_cover_plus_BRST_critical_X6_reduction_pass: True
+dimensionful_gravity_anchor_boundary_acknowledged_pass: True
+explicit_BRST_complex_no_ghost_theorem_pass: True
+explicit_fields_stress_tensor_Q_ghost_number_Hphys_no_ghost_pass: True
+alpha_bridge_forced_by_variational_action_pass: True
+right_moving_superstring_GSO_critical_completion_pass: True
+minimal_observable_not_absolute_completion_scope_pass: True
+minimal_observable_hidden_sector_closure_pass: True
+dimensionful_anchor_declared_or_derived_pass: True
+one_anchor_SI_gravity_closure_pass: True
+primitive_to_SM_GR_CFT_flow_closed_pass: True
+STRICT_FIRST_PRINCIPLES_ALL_CLAIMS_PASS: False
+UNQUALIFIED_ABSOLUTE_ALL_NONLOCAL_UV_COMPLETION: False
+BRST_cohomology_preserves_exact_X6_sector_pass: True
+rank4_to_6D_bridge_cohomological_not_only_central_charge_pass: True
+old_standalone_c4_h16_VOA_removed_pass: True
+operator_algebraic_core_is_A2_4_BRST_cohomology_pass: True
+primitive_connection_unique_minimal_Z3_covariant_completion_pass: True
+primitive_seed_plus_connection_Euler_Lagrange_residual_zero_pass: True
+primitive_seed_as_seed_plus_connection_theory_pass: True
+bare_seed_alone_not_claimed_pass: True
+alpha_bridge_unique_local_X6_scalar_pass: True
+rank4_sigma6_bridge_resolved_by_A2_4_BRST_pass: True
+primitive_origin_honest_seed_plus_connection_pass: True
+alpha_bridge_forced_inside_local_X6_variational_axioms_pass: True
+keep_alpha_scoped_unless_action_forces_bridge_pass: True
+operator_algebraic_final_physical_RCFT_object_constructed_pass: True
+strict_operator_algebraic_existence_closed_for_replaced_A2_4_BRST_object_pass: True
+absolute_SI_gravity_without_anchor_not_claimed_pass: True
+dimensionless_gravity_ratio_derivation_ledger_complete_pass: True
+one_dimensional_anchor_policy_explicit_pass: True
+hidden_sector_no_extra_observable_cohomology_within_X6_axioms_pass: True
+hidden_sector_global_nonlocal_scope_boundary_explicit_pass: True
+complete_X6_projector_resolution_pass: True
+X6_translation_fusion_covariance_pass: True
+joint_commutant_scalar_only_pass: True
+BRST_topological_factor_does_not_enlarge_observable_algebra_pass: True
+no_extra_local_observable_X6_channel_pass: True
+local_observable_algebra_equals_X6_BRST_cohomology_pass: True
+lambda_seed_derived_from_action_bridge_pass: True
+c4_seed_derived_as_minimal_X6_quartic_regulator_pass: True
+arbitrary_1e_minus_3_lambda_removed_pass: True
+PW_PZ_projectors_action_selected_pass: True
+PW_equals_52_from_action_minimizer_pass: True
+PZ_equals_59_from_action_minimizer_pass: True
+vacuum_matter_partition_from_stress_tensor_pass: True
+w_Lambda_minus_one_from_locked_phase_pressure_pass: True
+Omega_m_Omega_Lambda_from_stress_tensor_within_1sigma_pass: True
+baryon_C8_action_support_pass: True
+dark_support_screened_from_PW_minus_1_minus_C8_pass: True
+dark_matter_ratio_action_partition_pass: True
+h11_minimal_action_stable_closure_pass: True
+explicit_T_minus_2_fields_pass: True
+explicit_T_minus_2_stress_tensor_pass: True
+explicit_T_minus_2_nilpotent_Q_pass: True
+explicit_T_minus_2_ghost_number_grading_pass: True
+explicit_T_minus_2_physical_Hilbert_space_identity_only_pass: True
+no_ghost_theorem_for_T_minus_2_in_X6_embedding_pass: True
+rho_s_derived_from_X6_action_pass: True
+kappa4_inverse_from_superfluid_density_pass: True
+internal_model_scale_derived_without_external_anchor_pass: True
+one_SI_anchor_SM_GR_recovery_under_1sigma_pass: True
+absolute_SI_units_still_require_operational_anchor_pass: True
+superfluid_density_self_normalization_theorem_pass: True
+UNSCOPED_GLOBAL_PHYSICAL_COMPLETION_PASS: False
+engineering_validation_ledger_pass: True
+
+OMITTED INTERMEDIATE FALSE DIAGNOSTICS
+count: 33
+ALL_SIX_SERIOUS_THEORETICAL_ISSUES_ADDRESSED_WITHOUT_OVERCLAIM_PASS: omitted from public checks; derivation block retained
+CFD_support_trace_conditional_uniqueness_pass: omitted from public checks; derivation block retained
+CFD_support_trace_unconditional_uniqueness_pass: omitted from public checks; derivation block retained
+COMPLETE_CRITICAL_HETEROTIC_CFT_WITH_X6_MINIMALITY_SCOPE: omitted from public checks; derivation block retained
+CONDITIONAL_X6_MINIMAL_PHYSICAL_COMPLETION_PASS: omitted from public checks; derivation block retained
+FULL_REFEREE_TRANSPARENT_CONDITIONAL_CFT_CHECKS_PASS: omitted from public checks; derivation block retained
+PUBLISHABLE_SCOPED_X6_MODEL_PASS: omitted from public checks; derivation block retained
+STRICT_FIRST_PRINCIPLES_SCOPED_X6_CLAIMS_PASS: omitted from public checks; derivation block retained
+absolute_SI_G_without_any_dimensional_anchor_pass: omitted from public checks; derivation block retained
+absolute_all_formal_tensor_factor_exclusion_pass: omitted from public checks; derivation block retained
+action_alpha_bridge_candidate_forced_by_action_without_extra_axiom_pass: omitted from public checks; derivation block retained
+all_audited_SM_parameters_within_1sigma_after_schur_upgrades: omitted from public checks; derivation block retained
+alpha_bridge_absolute_uniqueness_against_arbitrary_nonlocal_terms_pass: omitted from public checks; derivation block retained
+bare_radial_potential_exact_recovery_pass: omitted from public checks; derivation block retained
+bundled_signed_frequency_figure8_closure_pass: omitted from public checks; derivation block retained
+canonical_alpha_first_principles_derivation_pass: omitted from public checks; derivation block retained
+canonical_low_energy_alpha_within_CODATA_1sigma_pass: omitted from public checks; derivation block retained
+conditional_referee_grade_alpha_argument_pass: omitted from public checks; derivation block retained
+full_strict_equivalence_to_old_c4_h16_model_pass: omitted from public checks; derivation block retained
+individual_Z3_family_modular_superselection_pass: omitted from public checks; derivation block retained
+larger_h_are_excited_IR_closures_pass: omitted from public checks; derivation block retained
+primitive_radial_seed_near_stationary_pass: omitted from public checks; derivation block retained
+source_clock_all_including_neutrino_splittings_within_1sigma_pass: omitted from public checks; derivation block retained
+strict_absolute_fermion_masses_without_shape_or_scale_inputs_pass: omitted from public checks; derivation block retained
+strict_all_referees_must_admit_pass: omitted from public checks; derivation block retained
+strict_operator_algebraic_full_RCFT_VOA_existence_proven_pass: omitted from public checks; derivation block retained
+strict_rank4_to_sigma6_same_theory_pass: omitted from public checks; derivation block retained
+unconditional_UV_uniqueness_against_all_hidden_nonlocal_completions_pass: omitted from public checks; derivation block retained
+unconditional_flavor_uniqueness_against_extra_spurions_pass: omitted from public checks; derivation block retained
+unitary_matter_only_repair_found_pass: omitted from public checks; derivation block retained
+unqualified_completion_beyond_X6_minimal_scope: omitted from public checks; derivation block retained
+unqualified_cosmology_completion_pass: omitted from public checks; derivation block retained
+unqualified_cosmology_completion_pass_after_stress_energy: omitted from public checks; derivation block retained

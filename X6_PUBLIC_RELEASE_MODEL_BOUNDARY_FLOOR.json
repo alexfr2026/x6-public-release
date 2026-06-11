@@ -1,0 +1,30 @@
+{
+  "branch_source": "generate_branch_control_artifacts() deterministic local branch enumeration",
+  "definition": "delta_model(row_class)=sqrt(delta_branch^2+delta_loop^2+delta_scheme^2)",
+  "loop_source": "charged residues cancel; neutrino has default modular-neutral determinant C_nu",
+  "row_class_floors": {
+    "charged_lepton_anchored_masses": {
+      "delta_branch": 0.007,
+      "delta_loop": 0.003,
+      "delta_model": 0.0076811457478686085,
+      "delta_scheme": 0.001,
+      "formula": "sqrt(delta_branch^2 + delta_loop^2 + delta_scheme^2)"
+    },
+    "neutrino_mass_squared_splittings": {
+      "delta_branch": 0.006,
+      "delta_loop": 0.005,
+      "delta_model": 0.008263776376451629,
+      "delta_scheme": 0.0027,
+      "formula": "sqrt(delta_branch^2 + delta_loop^2 + delta_scheme^2)"
+    },
+    "quark_anchored_masses": {
+      "delta_branch": 0.012,
+      "delta_loop": 0.01,
+      "delta_model": 0.01922082204277434,
+      "delta_scheme": 0.0112,
+      "formula": "sqrt(delta_branch^2 + delta_loop^2 + delta_scheme^2)"
+    }
+  },
+  "schema": "X6_MODEL_BOUNDARY_UNCERTAINTY_FLOOR_V1",
+  "scheme_source": "frozen release scheme/normalization convention allowance"
+}

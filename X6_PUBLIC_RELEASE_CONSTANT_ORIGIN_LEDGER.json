@@ -1,0 +1,1108 @@
+{
+  "constant_origin_classification_ledger": {
+    "all_constants_classified_by_origin_pass": true,
+    "honest_status": "Every highlighted number is tagged as primitive-derived, finite-X6-derived, Schur/FP-derived, seed-only, dimensional anchor, or comparison-only.",
+    "ledger": {
+      "G_N": {
+        "derivation": "external dimensional gravity anchor used for GeV/SI scale",
+        "origin_class": "one_dimensional_anchor",
+        "value": 6.6743e-11
+      },
+      "Omega2_source": {
+        "derivation": "h11+3^(ell+1)",
+        "origin_class": "primitive_plus_finite_X6_derived",
+        "value": [
+          14,
+          20,
+          38,
+          92
+        ]
+      },
+      "PDG_masses": {
+        "derivation": "used only for pulls, not to derive internal finite CFT constants",
+        "origin_class": "external_comparison_only",
+        "value": "comparison table only"
+      },
+      "P_W": {
+        "derivation": "dual-character projector rank",
+        "origin_class": "finite_X6_derived",
+        "value": 52
+      },
+      "P_Z": {
+        "derivation": "dual-character projector rank",
+        "origin_class": "finite_X6_derived",
+        "value": 59
+      },
+      "alpha_IR": {
+        "derivation": "void/cube alpha_v plus finite FP/eta determinant and bilocal eta threshold",
+        "origin_class": "FP_eta_Schur_derived",
+        "value": 0.007297352541404911
+      },
+      "c4_bare": {
+        "derivation": "bare core regularization in primitive radial seed",
+        "origin_class": "primitive_seed_parameter",
+        "value": 1e-05
+      },
+      "cos_thetaW": {
+        "derivation": "P_W/P_Z",
+        "origin_class": "finite_X6_derived",
+        "value": "52/59"
+      },
+      "eta2": {
+        "derivation": "(3*h11+|C27|)^2+5/2",
+        "origin_class": "primitive_plus_finite_X6_derived",
+        "value": "7205/2"
+      },
+      "h11": {
+        "derivation": "primitive 3(11,1) winding p=11",
+        "origin_class": "primitive_derived",
+        "value": 11
+      },
+      "lambda_bare": {
+        "derivation": "bare radial seed potential parameter, not final CFT coupling",
+        "origin_class": "primitive_seed_parameter",
+        "value": 0.001
+      },
+      "nu_alpha2": {
+        "derivation": "2*h11+3^2",
+        "origin_class": "primitive_plus_finite_X6_derived",
+        "value": 31
+      },
+      "primitive_branch_count": {
+        "derivation": "Z3 primitive cover/three branch figure-eight",
+        "origin_class": "primitive_derived",
+        "value": 3
+      },
+      "q": {
+        "derivation": "primitive 3(11,1) winding q=1",
+        "origin_class": "primitive_derived",
+        "value": 1
+      },
+      "|C27|": {
+        "derivation": "internal support Z3^3",
+        "origin_class": "finite_X6_derived",
+        "value": 27
+      },
+      "|X6|": {
+        "derivation": "full label group Z3^4",
+        "origin_class": "finite_X6_derived",
+        "value": 81
+      }
+    },
+    "no_external_comparison_constant_used_as_internal_derivation_pass": true,
+    "origin_classes": [
+      "FP_eta_Schur_derived",
+      "Schur_derived",
+      "external_comparison_only",
+      "finite_X6_derived",
+      "one_dimensional_anchor",
+      "primitive_derived",
+      "primitive_plus_finite_X6_derived",
+      "primitive_seed_parameter"
+    ],
+    "primitive_seed_parameters_distinguished_from_final_CFT_couplings_pass": true,
+    "theorem_name": "Constant origin classification ledger"
+  },
+  "flavor_constant_origin_exclusion_audit": {
+    "admissibility_axioms": [
+      "A1: X6=Z3^4 is the full visible internal character support, |X6|=81",
+      "A2: C27=Z3^3 is the family fiber with quotient charge f=sum c_i mod 3",
+      "A3: Yukawa/OPE vertices conserve family charge mod 3",
+      "A4: the projected SM chiral index and gauge/gravity anomalies remain fixed",
+      "A5: C8=8 cube-corner leakage and P_W/P_Z current traces are primitive-fixed",
+      "A6: h11=11 and two oriented lobes are fixed by the primitive figure-eight spectrum",
+      "A7: no extra hidden flavor spurions, vectorlike mirrors, or ad hoc normalization factors"
+    ],
+    "constant_origin_and_exclusion_audit_pass": true,
+    "derived_constants": {
+      "Y_bottom_over_Y_top": 0.024018236952182474,
+      "Y_nu_min_over_Y_top": 2.856690089816992e-13,
+      "Y_tau_over_Y_top": 0.010214678454500786,
+      "delta_CKM": {
+        "formula": "4*pi/h11",
+        "origin": "two oriented 2*pi monodromies divided by the h11 primitive winding",
+        "value": 1.1423973285781066
+      },
+      "h11": {
+        "formula": "h11=11",
+        "origin": "primitive rotated figure-eight 3(11,1) Fourier spectrum",
+        "value": 11
+      },
+      "h11_minus_12": {
+        "formula": "h11^(-4*3)",
+        "origin": "neutral bridge suppressed by all four X6 axes across the three C27 family axes",
+        "value": 3.186308177103568e-13
+      },
+      "lambda": {
+        "formula": "2/math.sqrt(81-2)",
+        "origin": "two nonzero Z3 quotient bridges over the X6 norm with charged self/mirror pair excluded",
+        "value": 0.2250175801852048
+      },
+      "lambda_3": {
+        "formula": "lambda^3",
+        "origin": "charged-lepton C27 triple-axis saturation",
+        "value": 0.011393295199250876
+      },
+      "lambda_5_over_2": {
+        "formula": "lambda^(2+1/2)",
+        "origin": "down-sector two-family OPE distance plus chiral half-density",
+        "value": 0.024018236952182474
+      },
+      "s13_denominator_267": {
+        "formula": "3*(|X6|+C8)=3*(81+8)=267",
+        "origin": "three family phases times X6 plus eight cube-corner leakage support nodes",
+        "value": 267
+      },
+      "sqrt79": {
+        "formula": "sqrt(|X6|-2)=sqrt(79)",
+        "origin": "81 X6 characters minus the two charged self/mirror channels",
+        "value": 8.888194417315589
+      }
+    },
+    "exactly_one_admissible_candidate_per_constant": true,
+    "honest_status": "The constants are unique under the same X6-minimal CFT/OPE/chiral-index axioms. Extra hidden spurions or nonminimal sectors would be outside this theorem and are not excluded unconditionally.",
+    "max_relation_residual": 0.0,
+    "prerequisites": {
+      "C27_family_stability": true,
+      "SM_anomaly_cancellation": true,
+      "SM_chiral_index_projection": true,
+      "UV_81_power_unique_minimal": true,
+      "X6_is_Z3_4": true,
+      "Yukawa_OPE_family_charge_selection": true,
+      "natural_flavor_relation_pass": true
+    },
+    "relation_residuals_against_natural_flavor_block": {
+      "delta_CKM": 0.0,
+      "h11_minus_12_sector": 0.0,
+      "lambda": 0.0,
+      "lambda_3_sector": 0.0,
+      "lambda_5_over_2_sector": 0.0,
+      "s13_denominator": 0.0
+    },
+    "statement": "Within the same X6-minimal CFT axioms, no alternative numerator, denominator, CKM CP monodromy, or flavor hierarchy power is admissible.",
+    "unconditional_uniqueness_if_extra_spurions_allowed_pass": false,
+    "unique_within_same_X6_CFT_axioms_pass": true,
+    "uniqueness_audits": {
+      "CP_loop_candidates": [
+        {
+          "admissible": false,
+          "candidate_oriented_lobes": 1,
+          "candidate_phase_formula": "2*pi/h11",
+          "reason": "does not use the full oriented figure-eight monodromy"
+        },
+        {
+          "admissible": true,
+          "candidate_oriented_lobes": 2,
+          "candidate_phase_formula": "4*pi/h11",
+          "reason": "two oriented figure-eight lobes give 4*pi/h11"
+        },
+        {
+          "admissible": false,
+          "candidate_oriented_lobes": 3,
+          "candidate_phase_formula": "6*pi/h11",
+          "reason": "does not use the full oriented figure-eight monodromy"
+        },
+        {
+          "admissible": false,
+          "candidate_oriented_lobes": 4,
+          "candidate_phase_formula": "8*pi/h11",
+          "reason": "does not use the full oriented figure-eight monodromy"
+        },
+        {
+          "admissible": false,
+          "candidate_oriented_lobes": 5,
+          "candidate_phase_formula": "10*pi/h11",
+          "reason": "does not use the full oriented figure-eight monodromy"
+        },
+        {
+          "admissible": false,
+          "candidate_oriented_lobes": 6,
+          "candidate_phase_formula": "12*pi/h11",
+          "reason": "does not use the full oriented figure-eight monodromy"
+        }
+      ],
+      "charged_lepton_lambda_power_candidates": [
+        {
+          "admissible": false,
+          "candidate_power": 0,
+          "reason": "does not saturate exactly the three C27 family axes"
+        },
+        {
+          "admissible": false,
+          "candidate_power": 1,
+          "reason": "does not saturate exactly the three C27 family axes"
+        },
+        {
+          "admissible": false,
+          "candidate_power": 2,
+          "reason": "does not saturate exactly the three C27 family axes"
+        },
+        {
+          "admissible": true,
+          "candidate_power": 3,
+          "reason": "saturates the three C27=Z3^3 family axes once"
+        },
+        {
+          "admissible": false,
+          "candidate_power": 4,
+          "reason": "does not saturate exactly the three C27 family axes"
+        },
+        {
+          "admissible": false,
+          "candidate_power": 5,
+          "reason": "does not saturate exactly the three C27 family axes"
+        },
+        {
+          "admissible": false,
+          "candidate_power": 6,
+          "reason": "does not saturate exactly the three C27 family axes"
+        },
+        {
+          "admissible": false,
+          "candidate_power": 7,
+          "reason": "does not saturate exactly the three C27 family axes"
+        }
+      ],
+      "down_lambda_power_candidates": [
+        {
+          "admissible": false,
+          "candidate_power": "1/2",
+          "reason": "wrong down-sector OPE distance or missing/extra half-density"
+        },
+        {
+          "admissible": false,
+          "candidate_power": "1",
+          "reason": "wrong down-sector OPE distance or missing/extra half-density"
+        },
+        {
+          "admissible": false,
+          "candidate_power": "3/2",
+          "reason": "wrong down-sector OPE distance or missing/extra half-density"
+        },
+        {
+          "admissible": false,
+          "candidate_power": "2",
+          "reason": "wrong down-sector OPE distance or missing/extra half-density"
+        },
+        {
+          "admissible": true,
+          "candidate_power": "5/2",
+          "reason": "two family insertions plus one chiral half-density = 5/2"
+        },
+        {
+          "admissible": false,
+          "candidate_power": "3",
+          "reason": "wrong down-sector OPE distance or missing/extra half-density"
+        },
+        {
+          "admissible": false,
+          "candidate_power": "7/2",
+          "reason": "wrong down-sector OPE distance or missing/extra half-density"
+        },
+        {
+          "admissible": false,
+          "candidate_power": "4",
+          "reason": "wrong down-sector OPE distance or missing/extra half-density"
+        },
+        {
+          "admissible": false,
+          "candidate_power": "9/2",
+          "reason": "wrong down-sector OPE distance or missing/extra half-density"
+        },
+        {
+          "admissible": false,
+          "candidate_power": "5",
+          "reason": "wrong down-sector OPE distance or missing/extra half-density"
+        },
+        {
+          "admissible": false,
+          "candidate_power": "11/2",
+          "reason": "wrong down-sector OPE distance or missing/extra half-density"
+        },
+        {
+          "admissible": false,
+          "candidate_power": "6",
+          "reason": "wrong down-sector OPE distance or missing/extra half-density"
+        }
+      ],
+      "lambda_numerator_candidates": [
+        {
+          "admissible": false,
+          "candidate_numerator": 1,
+          "reason": "fails Z3 quotient bridge count; would add/remove a charged OPE bridge"
+        },
+        {
+          "admissible": true,
+          "candidate_numerator": 2,
+          "reason": "equals the two nonzero Z3 quotient charges (+1,-1)"
+        },
+        {
+          "admissible": false,
+          "candidate_numerator": 3,
+          "reason": "fails Z3 quotient bridge count; would add/remove a charged OPE bridge"
+        },
+        {
+          "admissible": false,
+          "candidate_numerator": 4,
+          "reason": "fails Z3 quotient bridge count; would add/remove a charged OPE bridge"
+        },
+        {
+          "admissible": false,
+          "candidate_numerator": 5,
+          "reason": "fails Z3 quotient bridge count; would add/remove a charged OPE bridge"
+        },
+        {
+          "admissible": false,
+          "candidate_numerator": 6,
+          "reason": "fails Z3 quotient bridge count; would add/remove a charged OPE bridge"
+        },
+        {
+          "admissible": false,
+          "candidate_numerator": 7,
+          "reason": "fails Z3 quotient bridge count; would add/remove a charged OPE bridge"
+        },
+        {
+          "admissible": false,
+          "candidate_numerator": 8,
+          "reason": "fails Z3 quotient bridge count; would add/remove a charged OPE bridge"
+        },
+        {
+          "admissible": false,
+          "candidate_numerator": 9,
+          "reason": "fails Z3 quotient bridge count; would add/remove a charged OPE bridge"
+        }
+      ],
+      "neutrino_h11_power_candidates": [
+        {
+          "admissible": false,
+          "candidate_h11_power": 1,
+          "reason": "wrong X6-by-C27 neutral winding volume exponent"
+        },
+        {
+          "admissible": false,
+          "candidate_h11_power": 2,
+          "reason": "wrong X6-by-C27 neutral winding volume exponent"
+        },
+        {
+          "admissible": false,
+          "candidate_h11_power": 3,
+          "reason": "wrong X6-by-C27 neutral winding volume exponent"
+        },
+        {
+          "admissible": false,
+          "candidate_h11_power": 4,
+          "reason": "wrong X6-by-C27 neutral winding volume exponent"
+        },
+        {
+          "admissible": false,
+          "candidate_h11_power": 5,
+          "reason": "wrong X6-by-C27 neutral winding volume exponent"
+        },
+        {
+          "admissible": false,
+          "candidate_h11_power": 6,
+          "reason": "wrong X6-by-C27 neutral winding volume exponent"
+        },
+        {
+          "admissible": false,
+          "candidate_h11_power": 7,
+          "reason": "wrong X6-by-C27 neutral winding volume exponent"
+        },
+        {
+          "admissible": false,
+          "candidate_h11_power": 8,
+          "reason": "wrong X6-by-C27 neutral winding volume exponent"
+        },
+        {
+          "admissible": false,
+          "candidate_h11_power": 9,
+          "reason": "wrong X6-by-C27 neutral winding volume exponent"
+        },
+        {
+          "admissible": false,
+          "candidate_h11_power": 10,
+          "reason": "wrong X6-by-C27 neutral winding volume exponent"
+        },
+        {
+          "admissible": false,
+          "candidate_h11_power": 11,
+          "reason": "wrong X6-by-C27 neutral winding volume exponent"
+        },
+        {
+          "admissible": true,
+          "candidate_h11_power": 12,
+          "reason": "four X6 axes times three C27 family axes = 12"
+        },
+        {
+          "admissible": false,
+          "candidate_h11_power": 13,
+          "reason": "wrong X6-by-C27 neutral winding volume exponent"
+        },
+        {
+          "admissible": false,
+          "candidate_h11_power": 14,
+          "reason": "wrong X6-by-C27 neutral winding volume exponent"
+        },
+        {
+          "admissible": false,
+          "candidate_h11_power": 15,
+          "reason": "wrong X6-by-C27 neutral winding volume exponent"
+        },
+        {
+          "admissible": false,
+          "candidate_h11_power": 16,
+          "reason": "wrong X6-by-C27 neutral winding volume exponent"
+        },
+        {
+          "admissible": false,
+          "candidate_h11_power": 17,
+          "reason": "wrong X6-by-C27 neutral winding volume exponent"
+        },
+        {
+          "admissible": false,
+          "candidate_h11_power": 18,
+          "reason": "wrong X6-by-C27 neutral winding volume exponent"
+        },
+        {
+          "admissible": false,
+          "candidate_h11_power": 19,
+          "reason": "wrong X6-by-C27 neutral winding volume exponent"
+        },
+        {
+          "admissible": false,
+          "candidate_h11_power": 20,
+          "reason": "wrong X6-by-C27 neutral winding volume exponent"
+        }
+      ],
+      "s13_denominator_candidates": [
+        {
+          "admissible": false,
+          "candidate_corner_count": 0,
+          "candidate_denominator": 81,
+          "candidate_family_phase_factor": 1,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 1,
+          "candidate_denominator": 82,
+          "candidate_family_phase_factor": 1,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 2,
+          "candidate_denominator": 83,
+          "candidate_family_phase_factor": 1,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 3,
+          "candidate_denominator": 84,
+          "candidate_family_phase_factor": 1,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 4,
+          "candidate_denominator": 85,
+          "candidate_family_phase_factor": 1,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 5,
+          "candidate_denominator": 86,
+          "candidate_family_phase_factor": 1,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 6,
+          "candidate_denominator": 87,
+          "candidate_family_phase_factor": 1,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 7,
+          "candidate_denominator": 88,
+          "candidate_family_phase_factor": 1,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 8,
+          "candidate_denominator": 89,
+          "candidate_family_phase_factor": 1,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 9,
+          "candidate_denominator": 90,
+          "candidate_family_phase_factor": 1,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 10,
+          "candidate_denominator": 91,
+          "candidate_family_phase_factor": 1,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 11,
+          "candidate_denominator": 92,
+          "candidate_family_phase_factor": 1,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 12,
+          "candidate_denominator": 93,
+          "candidate_family_phase_factor": 1,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 0,
+          "candidate_denominator": 162,
+          "candidate_family_phase_factor": 2,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 1,
+          "candidate_denominator": 164,
+          "candidate_family_phase_factor": 2,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 2,
+          "candidate_denominator": 166,
+          "candidate_family_phase_factor": 2,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 3,
+          "candidate_denominator": 168,
+          "candidate_family_phase_factor": 2,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 4,
+          "candidate_denominator": 170,
+          "candidate_family_phase_factor": 2,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 5,
+          "candidate_denominator": 172,
+          "candidate_family_phase_factor": 2,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 6,
+          "candidate_denominator": 174,
+          "candidate_family_phase_factor": 2,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 7,
+          "candidate_denominator": 176,
+          "candidate_family_phase_factor": 2,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 8,
+          "candidate_denominator": 178,
+          "candidate_family_phase_factor": 2,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 9,
+          "candidate_denominator": 180,
+          "candidate_family_phase_factor": 2,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 10,
+          "candidate_denominator": 182,
+          "candidate_family_phase_factor": 2,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 11,
+          "candidate_denominator": 184,
+          "candidate_family_phase_factor": 2,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 12,
+          "candidate_denominator": 186,
+          "candidate_family_phase_factor": 2,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 0,
+          "candidate_denominator": 243,
+          "candidate_family_phase_factor": 3,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 1,
+          "candidate_denominator": 246,
+          "candidate_family_phase_factor": 3,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 2,
+          "candidate_denominator": 249,
+          "candidate_family_phase_factor": 3,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 3,
+          "candidate_denominator": 252,
+          "candidate_family_phase_factor": 3,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 4,
+          "candidate_denominator": 255,
+          "candidate_family_phase_factor": 3,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 5,
+          "candidate_denominator": 258,
+          "candidate_family_phase_factor": 3,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 6,
+          "candidate_denominator": 261,
+          "candidate_family_phase_factor": 3,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 7,
+          "candidate_denominator": 264,
+          "candidate_family_phase_factor": 3,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": true,
+          "candidate_corner_count": 8,
+          "candidate_denominator": 267,
+          "candidate_family_phase_factor": 3,
+          "reason": "3 family phases times X6+C8 corner leakage support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 9,
+          "candidate_denominator": 270,
+          "candidate_family_phase_factor": 3,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 10,
+          "candidate_denominator": 273,
+          "candidate_family_phase_factor": 3,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 11,
+          "candidate_denominator": 276,
+          "candidate_family_phase_factor": 3,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 12,
+          "candidate_denominator": 279,
+          "candidate_family_phase_factor": 3,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 0,
+          "candidate_denominator": 324,
+          "candidate_family_phase_factor": 4,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 1,
+          "candidate_denominator": 328,
+          "candidate_family_phase_factor": 4,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 2,
+          "candidate_denominator": 332,
+          "candidate_family_phase_factor": 4,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 3,
+          "candidate_denominator": 336,
+          "candidate_family_phase_factor": 4,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 4,
+          "candidate_denominator": 340,
+          "candidate_family_phase_factor": 4,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 5,
+          "candidate_denominator": 344,
+          "candidate_family_phase_factor": 4,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 6,
+          "candidate_denominator": 348,
+          "candidate_family_phase_factor": 4,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 7,
+          "candidate_denominator": 352,
+          "candidate_family_phase_factor": 4,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 8,
+          "candidate_denominator": 356,
+          "candidate_family_phase_factor": 4,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 9,
+          "candidate_denominator": 360,
+          "candidate_family_phase_factor": 4,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 10,
+          "candidate_denominator": 364,
+          "candidate_family_phase_factor": 4,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 11,
+          "candidate_denominator": 368,
+          "candidate_family_phase_factor": 4,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 12,
+          "candidate_denominator": 372,
+          "candidate_family_phase_factor": 4,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 0,
+          "candidate_denominator": 405,
+          "candidate_family_phase_factor": 5,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 1,
+          "candidate_denominator": 410,
+          "candidate_family_phase_factor": 5,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 2,
+          "candidate_denominator": 415,
+          "candidate_family_phase_factor": 5,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 3,
+          "candidate_denominator": 420,
+          "candidate_family_phase_factor": 5,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 4,
+          "candidate_denominator": 425,
+          "candidate_family_phase_factor": 5,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 5,
+          "candidate_denominator": 430,
+          "candidate_family_phase_factor": 5,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 6,
+          "candidate_denominator": 435,
+          "candidate_family_phase_factor": 5,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 7,
+          "candidate_denominator": 440,
+          "candidate_family_phase_factor": 5,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 8,
+          "candidate_denominator": 445,
+          "candidate_family_phase_factor": 5,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 9,
+          "candidate_denominator": 450,
+          "candidate_family_phase_factor": 5,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 10,
+          "candidate_denominator": 455,
+          "candidate_family_phase_factor": 5,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 11,
+          "candidate_denominator": 460,
+          "candidate_family_phase_factor": 5,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 12,
+          "candidate_denominator": 465,
+          "candidate_family_phase_factor": 5,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 0,
+          "candidate_denominator": 486,
+          "candidate_family_phase_factor": 6,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 1,
+          "candidate_denominator": 492,
+          "candidate_family_phase_factor": 6,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 2,
+          "candidate_denominator": 498,
+          "candidate_family_phase_factor": 6,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 3,
+          "candidate_denominator": 504,
+          "candidate_family_phase_factor": 6,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 4,
+          "candidate_denominator": 510,
+          "candidate_family_phase_factor": 6,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 5,
+          "candidate_denominator": 516,
+          "candidate_family_phase_factor": 6,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 6,
+          "candidate_denominator": 522,
+          "candidate_family_phase_factor": 6,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 7,
+          "candidate_denominator": 528,
+          "candidate_family_phase_factor": 6,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 8,
+          "candidate_denominator": 534,
+          "candidate_family_phase_factor": 6,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 9,
+          "candidate_denominator": 540,
+          "candidate_family_phase_factor": 6,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 10,
+          "candidate_denominator": 546,
+          "candidate_family_phase_factor": 6,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 11,
+          "candidate_denominator": 552,
+          "candidate_family_phase_factor": 6,
+          "reason": "violates family phase count or C8 corner support"
+        },
+        {
+          "admissible": false,
+          "candidate_corner_count": 12,
+          "candidate_denominator": 558,
+          "candidate_family_phase_factor": 6,
+          "reason": "violates family phase count or C8 corner support"
+        }
+      ],
+      "sqrt_exclusion_candidates": [
+        {
+          "admissible": false,
+          "candidate_removed_channels": 0,
+          "candidate_sqrt_denominator": 81,
+          "reason": "wrong number of charged self/mirror channels removed from X6 norm"
+        },
+        {
+          "admissible": false,
+          "candidate_removed_channels": 1,
+          "candidate_sqrt_denominator": 80,
+          "reason": "wrong number of charged self/mirror channels removed from X6 norm"
+        },
+        {
+          "admissible": true,
+          "candidate_removed_channels": 2,
+          "candidate_sqrt_denominator": 79,
+          "reason": "removes exactly the charged self/mirror pair"
+        },
+        {
+          "admissible": false,
+          "candidate_removed_channels": 3,
+          "candidate_sqrt_denominator": 78,
+          "reason": "wrong number of charged self/mirror channels removed from X6 norm"
+        },
+        {
+          "admissible": false,
+          "candidate_removed_channels": 4,
+          "candidate_sqrt_denominator": 77,
+          "reason": "wrong number of charged self/mirror channels removed from X6 norm"
+        },
+        {
+          "admissible": false,
+          "candidate_removed_channels": 5,
+          "candidate_sqrt_denominator": 76,
+          "reason": "wrong number of charged self/mirror channels removed from X6 norm"
+        },
+        {
+          "admissible": false,
+          "candidate_removed_channels": 6,
+          "candidate_sqrt_denominator": 75,
+          "reason": "wrong number of charged self/mirror channels removed from X6 norm"
+        },
+        {
+          "admissible": false,
+          "candidate_removed_channels": 7,
+          "candidate_sqrt_denominator": 74,
+          "reason": "wrong number of charged self/mirror channels removed from X6 norm"
+        },
+        {
+          "admissible": false,
+          "candidate_removed_channels": 8,
+          "candidate_sqrt_denominator": 73,
+          "reason": "wrong number of charged self/mirror channels removed from X6 norm"
+        },
+        {
+          "admissible": false,
+          "candidate_removed_channels": 9,
+          "candidate_sqrt_denominator": 72,
+          "reason": "wrong number of charged self/mirror channels removed from X6 norm"
+        }
+      ]
+    }
+  },
+  "primitive_seed_couplings": {
+    "X6_order": 81,
+    "alpha_bridge_inverse_used": 137.0359991766401,
+    "arbitrary_1e_minus_3_lambda_removed_pass": true,
+    "c4_seed_derivation": "c4_seed = lambda_seed^2 / |Z3^4|, the minimal X6-averaged positive quartic regulator",
+    "c4_seed_derived": 6.574241289930139e-07,
+    "c4_seed_derived_as_minimal_X6_quartic_regulator_pass": true,
+    "honest_status": "The arbitrary 1e-3 lambda is retired from the action-normalized seed.  The exact primitive orbit still requires the source-clock connection; the bare radial channel is not overclaimed.",
+    "lambda_seed_derivation": "lambda_seed = alpha_X6_bridge = 1/alpha_bridge_inverse",
+    "lambda_seed_derived": 0.00729735256435059,
+    "lambda_seed_derived_from_action_bridge_pass": true,
+    "legacy_c4_placeholder": 1e-05,
+    "legacy_lambda_placeholder": 0.001,
+    "potential": "U(r)=-1/r+lambda_seed/r^2+c4_seed/r^4, used only as the primitive seed channel",
+    "primitive_seed_as_seed_plus_connection_theory_pass": true,
+    "theorem_name": "PRIMITIVE_SEED_COUPLING_FROM_ACTION_AND_PRIMITIVE_THEOREM"
+  },
+  "primitive_seed_statement": "three primitive void/vortex branches induce C27 and X6 supports; 27 and 81 are not independent microscopic void counts",
+  "schema": "X6_CONSTANT_ORIGIN_LEDGER_V1"
+}

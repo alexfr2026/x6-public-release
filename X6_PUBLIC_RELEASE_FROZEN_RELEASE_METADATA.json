@@ -1,0 +1,32 @@
+{
+  "artifact_sha256": {
+    "X6_PUBLIC_RELEASE_CONSTANT_ORIGIN_LEDGER.json": "60c7839d16daa2b5838ba11f6095ebd38911140f3c52af8de03538986d6a362e",
+    "X6_PUBLIC_RELEASE_COSMOLOGY_LOCKED_SADDLE_LEDGER.json": "356ff6c7a8b1dcffe5cc850981592fdae21e6f08661833dbe7218e4cbbc53a59",
+    "X6_PUBLIC_RELEASE_EVIDENTIARY_LEDGER.json": "fe324f3b12c90467ee6d57576b6c382e29f925166ef6de879a6c3485c4fbda90",
+    "X6_PUBLIC_RELEASE_GRAVITY_COSMOLOGY_LAYER.json": "14934e5d25c5cb2e7bd13ef209b638478b94593935010a70ef443a4c3a46ff59",
+    "X6_PUBLIC_RELEASE_IR_BRANCH_CONTROLS.json": "1e61dd8025ce13cc4ce8f6b32e4e183b5edd5585057aa0eb5cab2dface8e026d",
+    "X6_PUBLIC_RELEASE_IR_BRANCH_ROW_SHIFTS.csv": "7d4ce120b69f6d43a50b0a73aa0ba5fcba870bbd7ea793b03a93a804321a7d9f",
+    "X6_PUBLIC_RELEASE_IR_PHENOMENOLOGY_LAYER.json": "1492bc9a5ab8a648482c2d5a5bf681062097c4164189d1fc342270ced4472936",
+    "X6_PUBLIC_RELEASE_MODEL_BOUNDARY_FLOOR.json": "25003c624cd1bf781fe16a0f1d2bc14f5617ec71bd11d8e00193debcb32bfd42",
+    "X6_PUBLIC_RELEASE_NEUTRINO_CORRECTION_REPORT.json": "8075408aca8ca3f15eef51eeccc8d0f9135799f0a4c99d19f0525cb365fbd600",
+    "X6_PUBLIC_RELEASE_PAPER_SAFE_MANIFEST.json": "c52f2469615e8247b7f77051a87828db2c9eb24a452b51ab8b4ec327aa9a289f",
+    "X6_PUBLIC_RELEASE_RELEASE_CHECKS.json": "1121b33cc7db5af447d382dfdbf0b2dfa90295ec35033348881f9dbc43aeb681",
+    "X6_PUBLIC_RELEASE_WORLDSHEET_LAYER.json": "db5838c72c2f925c63fc137fb0a0b845f543db3645011d8266240e73cfaf1242"
+  },
+  "boundary_branch_file": "X6_PUBLIC_RELEASE_IR_BRANCH_CONTROLS.json",
+  "branch_row_shift_file": "X6_PUBLIC_RELEASE_IR_BRANCH_ROW_SHIFTS.csv",
+  "correction_loop_file": "X6_PUBLIC_RELEASE_NEUTRINO_CORRECTION_REPORT.json",
+  "entry_point": "main(--mode release|internal)",
+  "model_boundary_floor_file": "X6_PUBLIC_RELEASE_MODEL_BOUNDARY_FLOOR.json",
+  "numpy_available": true,
+  "numpy_version": "1.22.4",
+  "paper_safe_manifest_file": "X6_PUBLIC_RELEASE_PAPER_SAFE_MANIFEST.json",
+  "payload_sha256": "555c2e3a4bb39980675ec9a8b895a345aaa48c58c7db1c6baea6ef625e22de54",
+  "python_implementation": "CPython",
+  "python_version": "3.10.12",
+  "reference_set": "PDG-style 2024/2025, NuFIT-style neutrino oscillation rows, Planck2018 for cosmology where used, CODATA2022/2025 for constants",
+  "release_tag": "v1",
+  "scale_convention": "frozen-v1-reference: light quarks at 2 GeV, charm at m_c, bottom at m_b, top separately labelled",
+  "schema": "X6_FROZEN_RELEASE_METADATA_V1",
+  "scheme": "MSbar for quarks where applicable; charged leptons pole-mass audit convention; neutrino splittings in eV^2"
+}

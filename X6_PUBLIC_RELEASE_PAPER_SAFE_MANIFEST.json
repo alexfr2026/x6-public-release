@@ -1,0 +1,32 @@
+{
+  "mode": "release",
+  "outputs_by_paper": {
+    "cosmology": [
+      "X6_PUBLIC_RELEASE_GRAVITY_COSMOLOGY_LAYER.json",
+      "X6_PUBLIC_RELEASE_COSMOLOGY_LOCKED_SADDLE_LEDGER.json"
+    ],
+    "ir": [
+      "X6_PUBLIC_RELEASE_IR_PHENOMENOLOGY_LAYER.json",
+      "X6_PUBLIC_RELEASE_IR_BRANCH_CONTROLS.json",
+      "X6_PUBLIC_RELEASE_IR_BRANCH_ROW_SHIFTS.csv",
+      "X6_PUBLIC_RELEASE_MODEL_BOUNDARY_FLOOR.json",
+      "X6_PUBLIC_RELEASE_NEUTRINO_CORRECTION_REPORT.json"
+    ],
+    "shared": [
+      "X6_PUBLIC_RELEASE_EVIDENTIARY_LEDGER.json",
+      "X6_PUBLIC_RELEASE_CONSTANT_ORIGIN_LEDGER.json",
+      "X6_PUBLIC_RELEASE_RELEASE_CHECKS.json"
+    ],
+    "worldsheet": [
+      "X6_PUBLIC_RELEASE_WORLDSHEET_LAYER.json"
+    ]
+  },
+  "public_release_policy": "release mode emits resolved theorem checks, manuscript-facing JSON/CSV tables, frozen metadata, and final scope boundaries only",
+  "release_tag": "v1",
+  "schema": "X6_PAPER_SAFE_MANIFEST_V1",
+  "scope_boundary_names": {
+    "SI_gravity": "one_anchor_SI_gravity_boundary",
+    "alpha": "local_X6_variational_alpha_bridge",
+    "hidden_sector": "minimal_observable_scope_boundary"
+  }
+}
